@@ -1,0 +1,63 @@
+@import "vars"
+
+/*==========  header  ==========*/
+header
+  padding: 39px 0 35px
+  .btn
+    height: 62px
+    margin: 0 0 0 53px
+
+.logo
+  display: flex
+  align-items: center
+  justify-content: center
+  max-width: 257px
+  width: 100%
+
+.menu
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  font-size: 18px
+  margin: 0 auto
+  li
+    margin: 0 20px 0 0
+    &:last-child
+      margin: 0
+    a
+      position: relative
+      color: #000000
+      padding: 0 0 7px
+      &:before
+        content: ''
+        position: absolute
+        left: 0
+        bottom: 0
+        width: 0
+        transition: .3s ease
+        height: 3px
+        background: $accent
+      &:hover
+        &:before
+          width: 52px
+
+.btn-burger
+  width: 23px
+  height: 16px
+  display: none
+  flex-direction: column
+  align-items: center
+  justify-content: space-between
+  cursor: pointer
+  span
+    width: 100%
+    display: block
+    height: 1px
+    background: #000
+/*==========  header end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/

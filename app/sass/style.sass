@@ -1,0 +1,264 @@
+@import "fonts"
+@import "vars"
+
+*
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+  &:before, &:after
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  vertical-align: baseline
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+  display: block
+
+
+blockquote, q
+  quotes: none
+
+blockquote:before, blockquote:after, q:before, q:after
+  content: ''
+  content: none
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+body
+  font-size: 16px
+  min-width: 320px
+  position: relative
+  line-height: normal
+  font-family: $default-font
+  font-weight: normal
+  background: #fff
+  color: #000000
+
+html, body
+  overflow-x: hidden
+
+img
+  display: block
+  max-width: 100%
+  height: auto
+
+.text-center
+  text-align: center
+
+a
+  display: block
+  text-decoration: none
+  transition: .3s ease
+  outline: none
+  width: fit-content
+  &:hover, &:focus
+    text-decoration: none
+    
+input, textarea, select
+  outline: none
+  box-shadow: none
+  appearance: none
+  padding: 25px 30px 5px
+  box-sizing: border-box
+  font-family: $default-font
+  border: 1px solid #FFFFFF
+    radius: 0
+  width: 100%
+  height: 55px
+  font-size: 14px
+  background: transparent
+  color: #AEAEAE
+  &::placeholder
+    color: #AEAEAE
+  &:hover
+    outline: none
+    box-shadow: none
+  
+
+label
+  display: block
+  width: 100%
+  margin: 0 0 20px
+
+button, .btn
+  outline: none
+  transition: .3s ease
+  cursor: pointer
+  box-shadow: none
+  font-family: $default-font
+  padding: 0
+  margin: 0
+  border: none
+    radius: 0
+
+
+.btn
+  display: flex
+  align-items: center
+  justify-content: center
+  text-align: center
+  font-size: 20px
+  font-weight: bold
+  padding: 16px 42px
+  width: fit-content
+  &:hover
+    transform: translateY(-5px)
+
+.btn-accent
+  color: #fff
+  background: $accent
+  &:hover
+    color: #fff
+
+.btn-white
+  background: #fff
+  color: $accent
+
+
+.svg-icon
+  display: inline-block
+  width: 100%
+  height: 100%
+
+strong, b
+  font-weight: bold
+  display: inline-block
+
+.my-ul
+  list-style: none
+
+.container
+  max-width: 1610px
+
+h2
+  font-size: 50px
+  font-weight: 600
+  width: 100%
+  line-height: 55px
+
+.mb-80
+  margin-bottom: 80px
+
+.bg-grey
+  background: $grey
+
+.bg-accent
+  background: $accent
+  color: #fff
+
+.links
+  display: flex
+  align-items: center
+  color: #000
+  &:hover
+    color: $accent
+    .links-arrow
+      stroke: $accent
+
+.links-arrow
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 19px
+  height: 19px
+  stroke: #000
+  fill: none
+  margin-left: 25px
+
+.links-web
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 13px
+  height: 13px
+  fill: none
+  stroke: #fff
+  &:hover
+    stroke: $grey
+
+.list-social
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  li
+    margin: 0 13px 0 0
+    &:last-child
+      margin: 0
+    a
+      width: 38px
+      height: 38px
+      border: 0.5px solid #000000
+      display: flex
+      align-items: center
+      justify-content: center
+      padding: 9px 6px
+      fill: #000
+      &:hover
+        background: $accent
+        fill: #fff
+
+.slick-slider
+  width: 100%
+
+
+.slick-nav
+  display: flex
+  align-items: center
+  .slick-next
+    margin: 0 0 0 60px
+
+.slick-arrow
+  background: transparent
+  width: 15.74px
+  height: 15.74px
+  fill: none
+  stroke: #000
+  cursor: pointer
+  opacity: 1
+  z-index: 1
+  display: flex
+  align-items: center
+  justify-content: center
+  position: relative
+  border: none
+    radius: 0
+  &:hover
+    stroke: $accent
+
+.slick-dots
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-wrap: wrap
+  padding: 0
+  list-style: none
+  li
+
+    cursor: pointer
+    transition: .3s ease
+    width: 11px
+    height: 11px
+    border-radius: 50%
+    background: #ffffff
+    margin: 0 79px 0 0
+    &:last-child
+      margin: 0
+    button
+      display: none
+    &.slick-active
+      background: $accent

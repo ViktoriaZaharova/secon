@@ -1,0 +1,97 @@
+/*==========  footer  ==========*/
+footer .list-social {
+  margin: 0 0 0 auto; }
+  footer .list-social li a {
+    border-color: #fff;
+    fill: #ffffff; }
+    footer .list-social li a:hover {
+      fill: #324C88;
+      background: #F0F0F0; }
+
+.footer-bottom {
+  background: #324C88;
+  color: #fff;
+  padding: 20px 0; }
+
+.footer-top {
+  background: #F0F0F0;
+  padding: 240px 0 70px;
+  color: #000000; }
+
+.footer-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 22px;
+  color: #fff; }
+  .footer-box:hover {
+    color: #fff; }
+  .footer-box__icon {
+    fill: none;
+    stroke: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 12px 0 0; }
+
+.address-box .footer-box__icon {
+  height: 30px;
+  width: 23px;
+  min-width: 23px; }
+
+.mail-box {
+  margin: 0 40px 0 80px; }
+  .mail-box .footer-box__icon {
+    width: 27px;
+    height: 15px;
+    min-width: 27px; }
+
+.schedule-box .footer-box__icon {
+  width: 24px;
+  height: 24px;
+  min-width: 24px; }
+
+.footer-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 48px; }
+
+.footer-col {
+  max-width: 322px; }
+  .footer-col__title {
+    font-weight: bold;
+    color: #000;
+    margin: 0 0 20px;
+    font-size: 22px; }
+    .footer-col__title:hover {
+      color: #324C88; }
+
+.footer-menu {
+  font-size: 17px; }
+  .footer-menu li a {
+    color: #000; }
+    .footer-menu li a:hover {
+      color: #324C88; }
+
+/*==========  footer end  ==========*/
+/*==========  modal  ==========*/
+/*==========  modal end  ==========*/

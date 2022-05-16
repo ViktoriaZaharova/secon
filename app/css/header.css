@@ -1,0 +1,76 @@
+/*==========  header  ==========*/
+header {
+  padding: 39px 0 35px; }
+  header .btn {
+    height: 62px;
+    margin: 0 0 0 53px; }
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 257px;
+  width: 100%; }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 18px;
+  margin: 0 auto; }
+  .menu li {
+    margin: 0 20px 0 0; }
+    .menu li:last-child {
+      margin: 0; }
+    .menu li a {
+      position: relative;
+      color: #000000;
+      padding: 0 0 7px; }
+      .menu li a:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+        height: 3px;
+        background: #324C88; }
+      .menu li a:hover:before {
+        width: 52px; }
+
+.btn-burger {
+  width: 23px;
+  height: 16px;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer; }
+  .btn-burger span {
+    width: 100%;
+    display: block;
+    height: 1px;
+    background: #000; }
+
+/*==========  header end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
