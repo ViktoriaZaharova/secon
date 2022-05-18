@@ -4,12 +4,41 @@ $('.partners-slider').slick({
     appendArrows: '.partners-slider-nav',
     prevArrow: '<button type="button" class="slick-prev"><svg class="svg-icon"><use xlink:href="img/sprite.svg#arrow-left"></use></svg></button>',
     nextArrow: '<button type="button" class="slick-next"><svg class="svg-icon"><use xlink:href="img/sprite.svg#arrow-right"></use></svg></button>',
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 3,
+            }
+        },
+        {
+            breakpoint: 420,
+            settings: {
+                slidesToShow: 2,
+            }
+        }
+    ]
 });
 
 $('.cases-slider').slick({
     slidesToShow: 3,
     dots: true,
     arrows: false,
+    responsive: [
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+    ]
 });
 
 $('.home-slider').slick({

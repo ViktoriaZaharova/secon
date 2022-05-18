@@ -379,7 +379,8 @@
   height: 280px;
   position: relative;
   padding: 30px 24px 40px;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 1; }
   .cases-slider-item__img {
     position: absolute;
     right: 49px;
@@ -393,7 +394,8 @@
             align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    z-index: -1; }
   .cases-slider-item__head {
     width: 100%;
     display: -webkit-box;
@@ -496,6 +498,8 @@
   border: 1px solid #000;
     border-left-width: 0;
   margin-bottom: -1px; }
+  .partners-slider-item img {
+    max-height: 100%; }
   .partners-slider-item:last-child {
     margin-bottom: 0; }
 
