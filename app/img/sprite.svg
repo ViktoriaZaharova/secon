@@ -26,6 +26,12 @@
         <path d="M46.07 0.710022L1 45.78" stroke-width="2" stroke-miterlimit="10"/>
     </symbol>
 
+    <symbol id="right" viewBox="0 0 68 67">
+        <path d="M38.8938 61.238L66.2635 33.8683L38.8938 6.49864" stroke="white" stroke-width="2"
+              stroke-miterlimit="10"/>
+        <path d="M9.51449e-05 33.8683H66.2636" stroke-width="2" stroke-miterlimit="10"/>
+    </symbol>
+
 
     <symbol id="tg" viewBox="0 0 21 18">
         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -58,9 +64,10 @@
         <path d="M20.0792 14.2212H13V7.44043" stroke-width="0.75" stroke-miterlimit="10"/>
     </symbol>
 
-    <symbol id="btn-play" viewBox="0 0 133 133" >
+    <symbol id="btn-play" viewBox="0 0 133 133">
         <circle cx="66.5" cy="66.5" r="65" stroke-width="3"/>
-        <path d="M85.75 65.201C86.75 65.7783 86.75 67.2217 85.75 67.799L58 83.8205C57 84.3979 55.75 83.6762 55.75 82.5215L55.75 50.4785C55.75 49.3238 57 48.6021 58 49.1795L85.75 65.201Z" stroke-width="3"/>
+        <path d="M85.75 65.201C86.75 65.7783 86.75 67.2217 85.75 67.799L58 83.8205C57 84.3979 55.75 83.6762 55.75 82.5215L55.75 50.4785C55.75 49.3238 57 48.6021 58 49.1795L85.75 65.201Z"
+              stroke-width="3"/>
     </symbol>
 
     <symbol id="file" viewBox="0 0 71 87">

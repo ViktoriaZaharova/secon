@@ -13,10 +13,21 @@
     font-size: 16px
 
     li
-      margin-right: 10px
+      margin-right: 15px
 
   h2
     font-size: 40px
+    line-height: normal
+
+  .logo
+    max-width: 240px
+
+  h1
+    font-size: 90px
+    line-height: normal
+
+  .box-text
+    font-size: 26px
     line-height: normal
 
 @media only screen and (max-width: 1400px)
@@ -74,6 +85,20 @@
     button
       font-size: 20px
 
+  .performers-item h3
+    font-size: 24px
+    line-height: normal
+
+  .documents-box
+    padding: 30px
+    &__icon
+      margin: 0 15px 0 0
+    &__name
+      font-size: 24px
+      line-height: normal
+
+  .events-box__body
+    padding: 30px
 
 @media only screen and (max-width: 1300px)
   .btn-burger
@@ -95,6 +120,36 @@
         &:first-child, &:nth-child(3)
           display: block
 
+  .p-130
+    padding: 90px 0
+
+  .governing-box
+    width: calc(25% - 8px)
+
+  .goal
+    padding: 70px 0 50px
+    &:before
+      width: 900px
+      height: 800px
+
+  .dates-company__box-head
+    font-size: 40px
+
+  .section-info-company .box-text
+    margin: 40px 0
+
+  .about-content
+    h2
+      padding: 0 0 20px
+      margin: 0 0 20px
+    .box-text
+      font-size: 20px
+      line-height: normal
+
+  .stages-inputs-item__number
+    margin: 0 30px 0 0
+
+
 
 @media only screen and (max-width: 1200px)
   .home-slider-dots
@@ -113,6 +168,9 @@
 
   .statistics-item
     font-size: 16px
+    .box-text
+      font-size: 16px
+      line-height: normal
 
   .associations
     padding: 60px 0
@@ -156,6 +214,102 @@
 
   .footer-box
     font-size: 16px
+
+  .page-section__content
+    margin: 150px 0 0
+
+  h1
+    font-size: 90px
+    line-height: normal
+
+  .box-text
+    font-size: 24px
+    line-height: normal
+
+  .p-130
+    padding: 80px 0
+
+  .events
+    padding: 70px 0 50px
+    h2, .links
+      margin: 0 0 40px
+    .links
+      font-size: 24px
+      line-height: normal
+      margin-left: auto
+
+  .governing-box
+    &__body
+      padding: 15px 20px
+    &__name
+      padding: 0 0 15px
+      margin: 0 0 10px
+      font-size: 24px
+      line-height: normal
+
+  .governing
+    margin: 40px 0 0
+    padding: 30px 0 0
+    h2
+      margin: 0 0 40px
+
+  .dates-company__box-right
+    padding: 0
+    .dates-company__box-head:before
+      width: 100%
+      left: 50%
+      transform: translate(-50%,0)
+
+  .dates-company__box-head
+    font-size: 30px
+    padding: 0 0 20px
+    margin: 0 0 20px
+    &:before
+      right: auto
+      left: 0
+      width: 100%
+
+  .dates-company
+    margin: 70px 0 30px
+
+  .dates-company__box
+    margin: 0 0 40px
+
+  .advantages
+    padding: 60px 0 40px
+    h2
+      margin: 0 0 30px
+
+  .advantages-box
+    margin: 0 0 30px
+    .box-text
+      font-size: 20px
+      line-height: normal
+
+  .stages-inputs-item
+    padding: 10px 20px
+    font-size: 22px
+    &__number
+      width: 50px
+      height: 50px
+      min-width: 50px
+      font-size: 22px
+
+  .stages-inputs
+    padding: 60px 0
+    &:before
+      width: 600px
+      height: 400px
+      background-position: -100px 100px
+
+  .differentiation
+    padding: 60px 0 40px
+    h2
+      font-size: 34px
+      br
+        display: none
+    .statistics-wrapper
+      margin: 40px 0 0
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px)
@@ -272,6 +426,95 @@
   .address-box
     max-width: 210px
 
+  .business-section
+    padding: 0 0 70px
+
+  h1
+    font-size: 70px
+
+  .associations-item
+    width: 33.3%
+    h3
+      font-size: 20px
+      margin: 40px 0 20px
+    .btn
+      margin: 0 0 20px
+      height: 50px
+
+  .p-130
+    padding: 60px 0
+
+  .documents
+    padding: 60px 0 40px
+    h2
+      margin: 0 0 30px
+
+  .goal
+    h2
+      margin: 0 0 30px
+
+  .goal-arrow
+    margin: 0 0 30px auto
+
+  .governing-box
+    width: calc(33.3% - 8px)
+
+  .governing-wrapper
+    justify-content: space-around
+
+  .section-info-company .image
+    min-width: auto
+    margin: 0
+    width: 100%
+
+  .section-info-company .box-text
+    font-size: 20px
+    line-height: normal
+
+  .about-content
+    margin: 40px 0 0
+    h2
+      text-align: left
+
+  .page-section
+    padding: 0 0 70px
+
+  .about:before
+    width: 450px
+    height: 320px
+
+  .about-video
+    padding-bottom: 56.25%
+    img
+      position: absolute
+      left: 0
+      top: 0
+      width: 100%
+      height: 100%
+
+  .btn-play
+    width: 100px
+    height: 100px
+    img
+      max-width: 24px
+      position: relative
+
+  .stages-inputs
+    h2
+      margin: 0 0 30px
+
+  .differentiation
+    .btn
+      margin: 20px 0 0
+    .statistics-item
+      flex: none
+      width: 50%
+      &:last-child
+        align-items: flex-start
+    .statistics-wrapper
+      justify-content: flex-start
+      align-items: flex-start
+
 @media only screen and (max-width: 768px)
   header
     padding: 20px 0
@@ -336,6 +579,37 @@
   .mail-box
     margin: 0 20px 0 0
 
+  h1
+    font-size: 50px
+
+  .box-text
+    font-size: 20px
+
+  .performers-item
+    width: 50%
+    h4
+      font-size: 22px
+      line-height: normal
+
+  .events-box__name
+    margin: 20px 0 0
+
+  .events-box__head
+    margin: 0 0 20px
+    padding: 0 10px 15px
+
+  .governing-box
+    width: calc(50% - 8px)
+
+  .differentiation
+    .statistics-wrapper
+      flex-wrap: wrap
+    .statistics-item
+      width: 100%
+      border: none
+      align-items: flex-start
+
+
 @media only screen and (max-width: 576px)
   header
     .list-social
@@ -379,8 +653,8 @@
 
   .associations-item
     width: 50%
-    &__logo
-      margin-bottom: 20px
+    &__description
+      margin-top: 20px
 
   .form-callback
     button
@@ -409,6 +683,66 @@
   .footer-box
     font-size: 15px
 
+  h1
+    font-size: 30px
+
+  .page-section__content
+    margin: 60px 0 0
+
+  .cases .links
+    margin: 10px 0 0
+
+  .associations-item
+    width: 100%
+
+  .performers .box-text
+    margin: 0 0 30px
+
+  .documents-box
+    &__icon
+      width: 50px
+      height: 70px
+    .links-web
+      right: 20px
+      top: 20px
+      width: 18px
+      height: 18px
+
+  .events
+    h2
+      margin: 0 0 30px
+    .links
+      margin: 0 0 20px
+      font-size: 20px
+    &__img
+      height: auto
+
+  .governing-box
+    width: 100%
+    &__photo
+      height: auto
+
+  .goal:before
+    width: 600px
+    height: 500px
+
+  .goal
+    h2
+      width: 100%
+
+  .goal-arrow
+    margin: 0 0 15px
+    transform: rotate(90deg)
+
+  .page-section
+    padding: 0 0 40px
+
+  .differentiation .statistics-item h3
+    font-size: 40px
+
+  .differentiation .statistics-item .box-text
+    font-size: 24px
+
 @media only screen and (max-width: 480px)
   .home-slider-item__img:before
     width: 100%
@@ -417,6 +751,17 @@
     h2
       font-size: 40px
 
+  .stages-inputs-item
+    font-size: 18px
+    &__arrow
+      width: 24px
+      height: 24px
+      min-width: 24px
+    &__number
+      margin: 0 20px 0 0
+
+  .differentiation h2
+    font-size: 28px
 
 @media only screen and (max-width: 420px)
   .associations-item
@@ -441,3 +786,7 @@
 
   .cases-slider-item-img
     padding: 0
+
+  .associations-item
+    .btn
+      margin: 0 0 20px

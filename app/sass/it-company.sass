@@ -1,0 +1,146 @@
+@import "vars"
+
+/*==========  it-company section  ==========*/
+.it-company-section
+  background: url("../img/it-company-bg.jpeg") no-repeat center
+    size: cover
+
+.advantages
+  margin: 112px 0 50px
+  h2
+    margin: 0 0 57px
+
+.advantages-box
+  margin: 0 0 87px
+  &__icon
+    margin: 0 0 29px
+    width: 60px
+    height: 60px
+    display: flex
+    align-items: center
+    justify-content: center
+    img
+      max-height: 100%
+  .box-text
+    line-height: 25px
+    font-size: 23px
+    span
+      line-height: 22px
+      font-size: 18px
+      display: block
+      margin: 10px 0 0
+
+
+
+/*==========  it-company section end  ==========*/
+
+
+/*==========  stages-inputs section  ==========*/
+.stages-inputs
+  padding: 113px 0 127px
+  position: relative
+  z-index: 1
+  &:after
+    content: ''
+    position: absolute
+    left: 50%
+    width: 34px
+    height: 34px
+    bottom: -17px
+    transform: translate(-50%,0) rotate(-45deg)
+    background: $accent
+  &:before
+    content: ''
+    position: absolute
+    width: 763px
+    height: 676px
+    background: url("../img/logo-figure.svg") no-repeat -180px 197px
+      size: 100%
+    opacity: .1
+    z-index: -1
+    left: 0
+    bottom: 0
+    overflow: hidden
+
+.stages-inputs-item
+  color: #fff
+  width: 100%
+  max-width: 1130px
+  margin-left: auto
+  display: flex
+  align-items: center
+  border-bottom: 1px solid #fff
+  padding: 16px 53px
+  font-size: 25px
+  font-weight: 500
+  &:first-child
+    border-top: 1px solid #fff
+  &__number
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 77px
+    height: 77px
+    min-width: 77px
+    border: 1px solid #fff
+      radius: 50%
+    font-size: 35px
+    font-weight: 500
+    margin: 0 74px 0 0
+  &__arrow
+    fill: none
+    stroke: #fff
+    width: 34px
+    min-width: 34px
+    height: 34px
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 0 0 0 auto
+  &:hover
+    transform: translateY(-10px)
+    color: #fff
+
+/*==========  stages-inputs section end  ==========*/
+
+
+/*==========  differentiation section  ==========*/
+.differentiation
+  padding: 115px 0 83px
+  .btn
+    margin-left: auto
+  h2
+    font-size: 42px
+  .statistics-wrapper
+    padding: 0
+    width: 100%
+    margin: 72px 0 0
+  .statistics-item
+    flex: 1
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: left
+    padding: 20px 0
+    border:
+      width: 2px
+    h3
+      font-size: 58px
+    &:first-child
+      align-items: flex-start
+    .box-text
+      font-size: 30px
+      font-weight: 600
+      margin: 15px 0 0
+      line-height: normal
+      span
+        display: block
+        font-weight: normal
+        margin: 20px 0 0
+
+    .box-text
+      margin: 0
+
+
+/*==========  differentiation section end  ==========*/
+

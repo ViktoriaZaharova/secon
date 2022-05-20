@@ -86,5 +86,65 @@ footer
 
 
 /*==========  modal  ==========*/
+.modal-dialog
+  max-width: 500px
+  .form-callback
+    padding: 0
+    margin: 0 auto
+    width: 100%
+    max-width: 300px
+    label
+      width: 100%
+      margin: 0 auto 15px
+    button
+      margin: 0 auto
+      width: 100%
+
+.modal-content
+  border: none
+  background: $accent
+  color: #fff
+  padding: 30px
+
+.modal-header
+  padding: 0
+  border: none
+  flex-wrap: wrap
+  margin: 0 auto 30px
+  .close
+    position: absolute
+    right: 15px
+    top: 15px
+    width: 20px
+    height: 20px
+    z-index: 0
+    opacity: 1
+    margin: 0
+    padding: 0
+    border: none
+      radius: 0
+    &:before, &:after
+      content: ''
+      position: absolute
+      left: 10px
+      top: 0
+      background: #fff
+      height: 100%
+      width: 2px
+      border-radius: 2px
+    &:before
+      transform: rotate(45deg)
+    &:after
+      transform: rotate(135deg)
+
+.modal-title
+  font-weight: 500
+  text-align: center
+  width: 100%
+  font-size: 24px
+
+.modal-body
+  padding: 0
+
 
 /*==========  modal end  ==========*/

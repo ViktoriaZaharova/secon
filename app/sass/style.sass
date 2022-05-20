@@ -65,9 +65,10 @@ a
   transition: .3s ease
   outline: none
   width: fit-content
+
   &:hover, &:focus
     text-decoration: none
-    
+
 input, textarea, select
   outline: none
   box-shadow: none
@@ -82,12 +83,14 @@ input, textarea, select
   font-size: 14px
   background: transparent
   color: #AEAEAE
+
   &::placeholder
     color: #AEAEAE
+
   &:hover
     outline: none
     box-shadow: none
-  
+
 
 label
   display: block
@@ -115,14 +118,30 @@ button, .btn
   font-weight: bold
   padding: 16px 42px
   width: fit-content
+
   &:hover
     transform: translateY(-5px)
 
 .btn-accent
   color: #fff
   background: $accent
+
   &:hover
     color: #fff
+
+.btn-grey
+  background: #B1B1B1
+  color: #FFFFFF
+  padding: 10px
+  &:hover
+    color: #fff
+
+.btn-border-grey
+  color: #898989
+  border: 1px solid #898989
+  font-size: 23px
+  height: 62px
+  padding: 10px 57px
 
 .btn-white
   background: #fff
@@ -138,6 +157,10 @@ button, .btn
   align-items: center
   justify-content: center
 
+.btn-border
+  border: 1px solid #000
+  width: 100%
+  padding: 10px
 
 .svg-icon
   display: inline-block
@@ -148,11 +171,22 @@ strong, b
   font-weight: bold
   display: inline-block
 
+ul
+  list-style: disc
+  padding-left: 20px
+
 .my-ul
   list-style: none
 
 .container
   max-width: 1610px
+
+h1
+  width: 100%
+  font-size: 105px
+  font-weight: 600
+  line-height: 79px
+  margin: 0 0 26px
 
 h2
   font-size: 50px
@@ -160,8 +194,14 @@ h2
   width: 100%
   line-height: 55px
 
+.mb-30
+  margin-bottom: 30px
+
 .mb-80
   margin-bottom: 80px
+
+.p-130
+  padding: 130px 0
 
 .bg-grey
   background: $grey
@@ -174,8 +214,10 @@ h2
   display: flex
   align-items: center
   color: #000
+
   &:hover
     color: $accent
+
     .links-arrow
       stroke: $accent
 
@@ -197,6 +239,7 @@ h2
   height: 13px
   fill: none
   stroke: #fff
+
   &:hover
     stroke: $grey
 
@@ -204,10 +247,13 @@ h2
   display: flex
   align-items: flex-start
   flex-wrap: wrap
+
   li
     margin: 0 13px 0 0
+
     &:last-child
       margin: 0
+
     a
       width: 38px
       height: 38px
@@ -217,6 +263,7 @@ h2
       justify-content: center
       padding: 9px 6px
       fill: #000
+
       &:hover
         background: $accent
         fill: #fff
@@ -228,6 +275,7 @@ h2
 .slick-nav
   display: flex
   align-items: center
+
   .slick-next
     margin: 0 0 0 60px
 
@@ -246,6 +294,7 @@ h2
   position: relative
   border: none
     radius: 0
+
   &:hover
     stroke: $accent
 
@@ -257,6 +306,7 @@ h2
   flex-wrap: wrap
   padding: 0
   list-style: none
+
   li
 
     cursor: pointer
@@ -266,9 +316,42 @@ h2
     border-radius: 50%
     background: #ffffff
     margin: 0 79px 0 0
+
     &:last-child
       margin: 0
+
     button
       display: none
+
     &.slick-active
       background: $accent
+
+.breadcrumb-nav
+  margin: 51px 0
+
+
+.breadcrumb
+  background: transparent
+  padding: 0
+  margin: 0
+  width: 100%
+  border: none
+    radius: 0
+  font-size: 18px
+  font-weight: 500
+  color: #fff
+  a
+    color: #fff
+    &:hover
+      color: $accent
+
+
+.breadcrumb-item+.breadcrumb-item::before, .breadcrumb-item.active
+  color: #fff
+
+
+.box-text
+  font-weight: 500
+  font-size: 29px
+  line-height: 43px
+

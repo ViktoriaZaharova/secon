@@ -13,10 +13,9 @@
 .home-slider-item
   width: 100%
   display: flex
-
   &__img
     position: absolute
-    right: 0
+    right: -15px
     bottom: 0
     z-index: -1
     max-width: 1125px
@@ -141,36 +140,6 @@
 /*==========  section home end  ==========*/
 
 
-
-/*==========  section  ==========*/
-
-/*==========  section end  ==========*/
-
-
-
-/*==========  section  ==========*/
-
-/*==========  section end  ==========*/
-
-
-
-/*==========  section  ==========*/
-
-/*==========  section end  ==========*/
-
-
-/*==========  section  ==========*/
-
-/*==========  section end  ==========*/
-
-
-
-/*==========  section  ==========*/
-
-/*==========  section end  ==========*/
-
-
-
 /*==========  section video-section ==========*/
 .video-section
   position: relative
@@ -250,6 +219,9 @@
   h3
     font-size: 74px
     font-weight: 600
+  .box-text
+    font-size: 18px
+    line-height: 25px
 
 /*==========  section statistics end  ==========*/
 
@@ -291,10 +263,11 @@
   &__logo
     display: flex
     align-items: center
-    justify-content: center
+    justify-content: flex-start
     height: 114px
-    margin: 0 0 25px
+
     img
+      max-width: 230px
       max-height: 100%
   .links-web
     stroke: #000
@@ -315,6 +288,8 @@
   &:before
     left: 0
     right: auto
+  &__description
+    margin: 25px 0 0
 
 
 .line-border
@@ -482,6 +457,7 @@
     background: url("../img/logo-figure.svg") no-repeat center
       size: 100%
     z-index: -1
+    opacity: .2
   h2
     color: #fff
     font-size: 40px
@@ -509,3 +485,88 @@
     padding: 10px
 
 /*==========  callback-section end  ==========*/
+
+
+/*==========  page section  ==========*/
+.page-section
+  position: relative
+  color: #fff
+  padding: 0 0 162px
+
+  &:before
+    content: ''
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background: #182A47
+    opacity: .7
+    mix-blend-mode: multiply
+  &__content
+    margin: 323px 0 0
+
+.business-section
+  background: url("../img/bg-business.jpg") no-repeat center
+    size: cover
+  padding: 0 0 206px
+
+.performers
+  h2
+    margin: 0 0 25px
+  .box-text
+    margin: 0 0 59px
+
+.performers-item
+  width: 25%
+  .btn
+    height: 60px
+    margin: 0 0 32px
+    &:last-child
+      margin: 0
+  .links-web
+    position: absolute
+    top: 42px
+    right: 35px
+    margin: 0
+    transform: rotate(180deg)
+  h4
+    margin: 22px 0 17px
+    font-size: 29px
+    font-weight: 500
+  .associations-item__description
+    padding: 28px 14px 36px
+    font-size: 16px
+    font-weight: 500
+    background: #F0F0F0
+    margin: 0
+    .btn
+      margin: 0
+      height: 51px
+    &-bottom
+      margin: 16px 0 0
+      padding: 15px 0 0
+      border-top: 1px solid #000
+    &-name
+      margin: 0 0 3px
+      font-weight: bold
+      font-size: 20px
+
+    &-contacts
+      margin: 0 0 27px
+      a
+        color: $accent
+        font-size: 18px
+        font-weight: 600
+        &:hover
+          color: #000
+  h3
+    font-size: 29px
+    line-height: 32px
+    margin: 70px 0 40px
+    max-width: 320px
+
+.performers-item-call
+  &:after, &:before
+    display: none
+/*==========  page section end  ==========*/
