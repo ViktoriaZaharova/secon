@@ -121,5 +121,12 @@ $.datepicker.setDefaults(
 
 $('.datepicker').datepicker();
 
+$(window).on("load", function () {
+    $(".mCustomScrollbar-wrap").mCustomScrollbar({
+        // theme: "light-thick",
+        alwaysShowScrollbar: 2,
+        scrollButtons:{ enable: true }
+    });
+});
 
 new WOW().init();

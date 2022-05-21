@@ -80,7 +80,9 @@
   padding: 10px 37px
   font-size: 25px
   font-weight: 500
-
+  display: flex
+  align-items: center
+  justify-content: center
   &:hover
     background: #fff
     color: $accent
@@ -91,6 +93,14 @@
   &.active
     background: #fff
     color: #000
+
+.filter-item-black
+  border: 1px solid #000
+  color: #000
+  &.active
+    background: $accent
+    color: #fff
+    border-color: #000
 
 .courses
   width: 100%
@@ -188,7 +198,7 @@
   position: relative
   padding: 38px 75px 47px
   z-index: 1
-
+  overflow: hidden
   &__logo
     display: flex
     align-items: center
@@ -232,3 +242,200 @@
       border-bottom-color: #000
 
 /*==========  internships section end  ==========*/
+
+
+/*==========  vacancies section  ==========*/
+.vacancies-company
+  .filter-wrapper
+    margin: 0
+  h2
+    margin: 0 0 36px
+
+.vacancies-company-wrapper
+  margin: 50px 0 0
+  padding: 58px 0 60px
+
+.vacancies-company-details
+  background: #fff
+  padding: 48px 82px 47px
+  margin: 22px 0 0
+  .logo-company
+    margin: 30px 63px auto 0
+    min-width: 207px
+    max-width: 207px
+
+  .association-section-home__wrapper .box-text
+    font-size: 23px
+    line-height: normal
+    padding: 30px 0 10px 60px
+    .btn
+      margin: 52px 0 0 auto
+      height: auto
+      padding: 6px 40px
+      font-size: 18px
+
+
+.btn-all-vacancies
+  margin: 42px 0 0 auto
+  font-size: 18px
+  padding: 16px 35px
+  height: 49px
+
+.vacancies-company-list
+  width: 100%
+  padding: 76px 119px 45px 90px
+
+.mCustomScrollbar-wrap
+  height: 440px
+  .mCSB_dragger.mCSB_dragger_onDrag
+    .mCSB_dragger_bar
+      background: $accent
+
+.mCSB_container
+  width: 100%
+  display: flex
+  align-items: flex-start
+  justify-content: space-between
+  flex-wrap: wrap
+  padding-right: 100px
+  margin-right: 0
+
+.vacancies-col
+  margin: 0 0 40px
+  max-width: 505px
+  width: 100%
+  .box-text
+    font-size: 14px
+    font-weight: normal
+    line-height: normal
+  &__head
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 0 0 22px
+    margin: 0 0 17px
+    border-bottom: 1px solid #000
+  h4
+    font-size: 22px
+    font-weight: 600
+    line-height: 25px
+  .links
+    fill: none
+    stroke: #000
+    width: 14px
+    min-width: 14px
+    height: 14px
+    display: flex
+    align-items: center
+    justify-content: center
+
+.mCSB_scrollTools
+  width: 14px
+
+.mCSB_draggerRail
+  margin: 0
+  width: 2px
+  background: #fff
+  border-radius: 0
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar
+  background: $accent
+  width: 2px
+  border-radius: 0
+
+.mCSB_scrollTools .mCSB_buttonUp, .mCSB_scrollTools .mCSB_buttonDown
+  width: 14px
+  height: 14px
+  cursor: pointer
+  opacity: 1
+
+.mCSB_scrollTools .mCSB_buttonUp
+  background: url("../img/arrow-top.svg") no-repeat center
+    size: 100%
+
+.mCSB_scrollTools .mCSB_buttonDown
+  background: url("../img/arrow-bottom.svg") no-repeat center
+    size: 100%
+
+.mCSB_scrollTools .mCSB_draggerRail
+  background: #fff
+
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar
+  background: $accent
+
+
+
+/*==========  vacancies section end  ==========*/
+
+
+/*==========  summary-section section  ==========*/
+.summary-section
+  padding: 70px 0 0
+
+.summary-wrapper
+  padding: 92px 165px 100px 135px
+  flex-wrap: wrap
+  h2
+    width: 100%
+    margin: 0 0 33px
+  &:before
+    width: 377px
+    height: 335px
+    top: -100px
+    left: auto
+    right: -113px
+
+.form-summary
+  width: 100%
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  justify-content: space-between
+  .form-group
+    margin: 0
+    &:first-child
+      width: calc(38% - 12px)
+    &:last-child
+      width: calc(62% - 12px)
+  label
+    margin: 0 0 19px
+  .label-file
+    margin: 0
+  button
+    margin: 0
+    height: 55px
+    max-width: 315px
+    width: 100%
+    padding: 14px
+    font-size: 23px
+
+.row-form
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: space-between
+  flex-wrap: wrap
+
+.label-file
+  margin: 0
+  width: fit-content
+  display: flex
+  align-items: center
+  color: #fff
+  padding: 0 30px
+  font-size: 23px
+  cursor: pointer
+
+.inp-file
+  display: none
+
+.file-icon
+  display: flex
+  align-items: center
+  justify-content: center
+  margin: 0 17px 0 0
+  width: 24px
+  height: 30px
+
+/*==========  summary-section section end  ==========*/

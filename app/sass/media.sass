@@ -11,6 +11,9 @@
   .association-info__content .links-web
     margin-right: 0
 
+  .vacancies-company-list
+    padding: 50px
+
 @media only screen and (max-width: 1500px)
   header .btn
     margin-left: 46px
@@ -48,6 +51,12 @@
   .association-section-home__img
     width: 520px
     height: 440px
+
+  .vacancies-col
+    max-width: 47%
+
+  .mCSB_inside>.mCSB_container
+    padding-right: 50px
 
 @media only screen and (max-width: 1400px)
   .logo
@@ -151,6 +160,9 @@
   .datepicker-years-item.active, .datepicker-months-item.active
     font-size: 30px
 
+  .courses
+    padding: 40px
+
 @media only screen and (max-width: 1300px)
   .btn-burger
     display: flex
@@ -222,6 +234,13 @@
 
   .association-info__content
     padding: 70px 0
+
+  .work-home-navigation__arrow
+    margin: 0 30px
+
+  .internships-wrapper
+    padding: 30px
+
 
 @media only screen and (max-width: 1200px)
   .home-slider-dots
@@ -439,6 +458,60 @@
   .calendar-event h3
     margin: 0 0 50px
 
+  .summary-wrapper
+    h2
+      margin: 0 0 30px
+
+  .form-summary button
+    max-width: 230px
+    font-size: 20px
+    padding: 14px 20px
+
+  .label-file
+    padding: 0
+
+  .work-home-navigation
+    padding: 20px 0
+    font-size: 22px
+
+
+  .work-home
+    padding: 0 0 70px
+    h1
+      font-size: 40px
+
+  .filter-item
+    font-size: 22px
+
+  .filter-wrapper
+    margin: 40px 0 0
+
+  .profession
+    padding: 60px 0 50px
+    &:before
+      width: 560px
+      height: 480px
+      -webkit-background-size: contain
+      background-size: contain
+
+  .courses
+    .box-text
+      font-size: 20px
+
+  .table tbody
+    font-size: 16px
+
+  .table td
+    padding: 15px
+
+  .list-level li
+    width: 18px
+    height: 18px
+    min-width: 18px
+    margin: 0 10px 0 0
+
+  .internships
+    padding: 60px 0
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px)
@@ -709,7 +782,41 @@
 
   .calendar-event
     margin: 40px 0 0
-    h3
+
+  .form-summary
+    .form-group
+      width: 100%
+      max-width: 100%
+      &:first-child, &:last-child
+        width: 100%
+
+  .filter-item
+    font-size: 18px
+    margin: 0 10px 10px 0
+    padding: 5px 15px
+
+  .table
+    font-size: 16px
+    thead
+      th
+        padding: 10px 15px
+
+  .courses .box-text
+    margin: 0 0 30px
+    line-height: normal
+
+  .internships-box
+    padding: 30px 40px
+    width: 100%
+    h4
+      font-size: 24px
+      line-height: normal
+    .box-text
+      font-size: 16px
+
+  .vacancies-company-details
+    padding: 30px
+
 
 @media only screen and (max-width: 768px)
   header
@@ -835,7 +942,47 @@
     border: none
     padding: 0
 
+  .row-form
+    flex-direction: column
+    align-items: center
 
+
+  .form-summary button
+    max-width: 300px
+    margin: 20px auto 0
+
+  .label-file
+    width: 100%
+
+  .summary-section
+    padding: 40px 0 0
+
+  .vacancies-company-item
+    .association-section-home__wrapper
+      margin: 0 0 30px
+      flex-wrap: wrap
+      .box-text
+        width: 100%
+        padding: 0
+        margin: 20px 0 0
+        border: none
+        font-size: 20px
+        .btn
+          margin: 20px auto 0
+    .logo-company
+      margin: 0 auto
+
+  .filter-item
+    height: 50px
+
+  .vacancies-company-list
+    padding: 30px
+
+
+  .vacancies-col
+    width: 100%
+    margin: 0 0 30px
+    max-width: 100%
 
 @media only screen and (max-width: 576px)
   header
@@ -1013,6 +1160,31 @@
   .calendar-event-box .btn
     font-size: 16px
 
+  .work-home-navigation
+    font-size: 16px
+
+  .work-home
+    padding: 0 0 50px
+    h1
+      font-size: 30px
+
+  .internships-wrapper
+    padding: 20px
+
+  .internships-box
+    padding: 25px 30px
+
+  .internships-box__bg
+    height: 100%
+    width: fit-content
+
+  .vacancies-col h4
+    font-size: 18px
+
+  .summary-wrapper:before
+    width: 250px
+    height: 200px
+
 @media only screen and (max-width: 480px)
   .home-slider-item__img:before
     width: 100%
@@ -1073,4 +1245,18 @@
 
   .ui-datepicker-calendar th
     padding: 10px
+
+  .btn-all-vacancies
+    margin: 30px auto 0
+    padding: 15px 20px
+
+  .vacancies-col__head
+    padding: 0 0 15px
+    margin: 0 0 15px
+
+  .vacancies-company-list
+    padding: 30px 5px 30px 20px
+
+  .mCSB_inside > .mCSB_container
+    padding-right: 30px
 
