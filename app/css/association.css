@@ -359,3 +359,251 @@
     color: #000; }
 
 /*==========  documents section end  ==========*/
+/*==========  association-page section  ==========*/
+.association-section-home__img {
+  width: 620px;
+  height: 513px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+  .association-section-home__img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+.association-section-home__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%; }
+  .association-section-home__wrapper .box-text {
+    padding: 30px 0 30px 70px;
+    border-left: 1px solid #000;
+    max-width: none;
+    margin: 0 0 76px; }
+
+.logo-company {
+  margin: 0 54px 76px 0;
+  min-width: 188px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 188px; }
+  .logo-company img {
+    width: 100%; }
+
+.association-section-home {
+  padding: 0;
+  position: relative;
+  overflow: hidden; }
+
+.information-association {
+  padding: 129px 0; }
+
+.information-association-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.information-association-box {
+  width: 50%;
+  position: relative;
+  margin: 0 -0.5px;
+  padding: 42px 25px 46px 45px; }
+  .information-association-box h3 {
+    font-size: 29px;
+    font-weight: 500; }
+  .information-association-box__head {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 0 24px; }
+  .information-association-box:before, .information-association-box:after {
+    content: '';
+    position: absolute;
+    background: #000;
+    height: calc(100% - 32px);
+    width: 1px;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    top: 50%; }
+  .information-association-box:before {
+    left: 0; }
+  .information-association-box:after {
+    right: 0; }
+  .information-association-box__body {
+    width: 100%;
+    background: #F0F0F0;
+    max-width: 711px;
+    padding: 27px 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .information-association-box .text-left-box, .information-association-box .text-right-box {
+    width: 50%; }
+  .information-association-box .text-right-box {
+    border-left: 1px solid #000;
+    padding: 20px 0 20px 40px; }
+    .information-association-box .text-right-box .box-text {
+      padding: 0 10px; }
+  .information-association-box ul li {
+    margin: 0 0 23px; }
+    .information-association-box ul li:last-child {
+      margin: 0; }
+
+.links-vacancies {
+  color: #000; }
+  .links-vacancies:hover {
+    color: #324C88; }
+
+.links-company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #000;
+  font-size: 13px; }
+  .links-company:hover {
+    color: #324C88; }
+  .links-company__icon {
+    fill: none;
+    stroke: #000;
+    width: 19px;
+    height: 19px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 0 0 17px; }
+
+.information-association-box__it {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  fill: none;
+  stroke: #000; }
+  .information-association-box__it:hover {
+    color: #324C88; }
+
+.information-association-box__it-icon {
+  width: 23px;
+  height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 19px 0 0; }
+
+.text-right__info {
+  border-bottom: 1px solid #000;
+  padding: 0 10px 7px;
+  font-size: 13px;
+  margin: 0 0 10px; }
+  .text-right__info h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0 0; }
+
+.contacts-links {
+  font-size: 18px;
+  color: #324C88; }
+  .contacts-links:hover {
+    color: #000; }
+
+/*==========  association-page section end  ==========*/
+/*==========  association-info section  ==========*/
+.association-info__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  min-width: 1130px;
+  float: right;
+  margin-right: 90px; }
+  .association-info__img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+.association-info__content {
+  position: relative;
+  padding: 141px 0 130px; }
+  .association-info__content .box-text {
+    font-weight: normal; }
+  .association-info__content .links-web {
+    margin: 0 -60px 26px auto;
+    width: 40px;
+    height: 40px;
+    stroke: #000; }
+
+.events-v2 {
+  margin: 0 0 -140px;
+  position: relative;
+  z-index: 1; }
+
+/*==========  association-info section end  ==========*/

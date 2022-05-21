@@ -1,0 +1,212 @@
+@import "vars"
+
+/*==========  events-home section  ==========*/
+.events-home-section
+  background: url("../img/events.jpeg") no-repeat center
+    size: cover
+
+
+
+/*==========  events-home section end  ==========*/
+
+
+/*==========  calendar section  ==========*/
+.calendar
+  padding: 114px 0 130px
+  h2
+    margin: 0 0 67px
+
+.calendar-event
+  h3
+    text-align: center
+    width: 100%
+    margin: 0 0 82px
+    font-size: 35px
+    font-weight: 600
+
+.calendar-event-box
+  background: #fff
+  .btn
+    margin: 29px 0 0
+    width: 100%
+    font-size: 25px
+    padding: 17px 30px
+  .events-box__body
+    padding: 46px 45px 67px
+    position: relative
+    &:before
+      content: ''
+      position: absolute
+      left: 50%
+      transform: translate(-50%,0) rotate(45deg)
+      width: 38px
+      height: 38px
+      background: #fff
+      top: -17px
+  .events-box__name
+    font-size: 30px
+    margin: 23px 0 0
+  .box-text
+    font-size: 18px
+    max-width: 330px
+
+
+.nav-tabs
+  width: 100%
+  border: none
+    radius: 0
+  .nav-link.active, .show>.nav-link
+    background: #fff
+    color: $accent
+    border-color: #fff
+  .nav-link
+    border: none
+      radius: 0
+    color: #AEAEAE
+    font-size: 29px
+    font-weight: 700
+    height: 81px
+    width: 100%
+    text-align: center
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 0
+  .nav-item
+    flex: 1
+    border: 2px solid #FFFFFF
+      radius: 0
+    margin: 0 -1px 0 0
+
+
+.tab-content
+  background: #fff
+  border: 2px solid #FFFFFF
+
+  .tab-pane
+    padding: 35px 56px 58px
+
+
+.callback-section-v2
+  position: relative
+  overflow: hidden
+  z-index: 1
+  margin: -40px 0 -140px
+  &:before
+    width: 588px
+    height: 521px
+    position: absolute
+    content: ''
+    left: -94px
+    bottom: -124px
+    background: url("../img/logo-figure.svg") no-repeat center
+      size: contain
+    opacity: .2
+    z-index: -1
+  .callback-wrapper
+    background: transparent
+    padding: 100px 158px 130px
+    &:before
+      display: none
+
+.events.pb-0
+  padding-bottom: 0
+
+.datepicker-nav
+  width: 100%
+  display: flex
+  align-items: center
+  margin: 0 0 28px
+  .links
+    margin: 0 0 0 auto
+    color: #324C88
+    font-size: 18px
+    font-weight: bold
+  .links-arrow
+    width: 18px
+    height: 18px
+    margin-left: 10px
+
+.datepicker-years, .datepicker-months
+  display: flex
+  align-items: flex-end
+
+.datepicker-months
+  margin: 0 auto
+
+.datepicker-years-item, .datepicker-months-item
+  color: #E0E0E0
+  font-size: 18px
+  font-weight: bold
+  min-width: 123px
+  text-align: center
+  &:hover
+    color: #000
+  &.active
+    color: #324C88
+    font-size: 35px
+    font-weight: bold
+    margin: 0 -10px -5px
+
+.datepicker-years-item.active
+  text-align: left
+  margin: 0 -10px -5px 0
+    
+.datepicker-months
+  padding: 0 20px 5px
+  border:
+    left: 2px solid #324C88
+    right: 2px solid #324C88
+
+
+
+.datepicker
+  .ui-widget.ui-widget-content
+    border: none
+      radius: 0
+  .ui-datepicker
+    width: 100%
+  .ui-datepicker-header
+    display: none
+
+.ui-datepicker table
+  margin: 0
+  font-size: 20px
+  font-weight: bold
+  font-family: $default-font
+
+.ui-datepicker-calendar
+  margin: 0
+  thead
+    background: #F0F0F0
+    text-transform: uppercase
+    color: $accent
+    text-align: center
+    font-size: 20px
+    font-weight: bold
+  th
+    padding: 13px
+  td
+    height: 75px
+    padding: 0
+    border: 0.5px solid #7D7D7D
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active
+  width: 100%
+  height: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+  font-weight: bold
+  border: none
+  background: #fff
+  color: #000
+  text-align: center
+
+
+.ui-state-active, .ui-widget-content .ui-state-active
+  background: $accent
+  color: #fff
+
+/*==========  calendar section end  ==========*/
+

@@ -5,6 +5,12 @@
   .statistics-item
     padding: 20px 40px
 
+  .contacts-section-home .governing-box
+    max-width: 300px
+
+  .association-info__content .links-web
+    margin-right: 0
+
 @media only screen and (max-width: 1500px)
   header .btn
     margin-left: 46px
@@ -29,6 +35,19 @@
   .box-text
     font-size: 26px
     line-height: normal
+
+  .contacts-section-home
+    h1
+      font-size: 40px
+    .btn
+      height: 60px
+      font-size: 20px
+    .breadcrumb-nav
+      margin: 40px 0
+
+  .association-section-home__img
+    width: 520px
+    height: 440px
 
 @media only screen and (max-width: 1400px)
   .logo
@@ -100,6 +119,38 @@
   .events-box__body
     padding: 30px
 
+  .information-association-box h3
+    font-size: 24px
+
+  .information-association-box__body
+    padding: 25px 30px
+
+  .information-association-box .text-right-box
+    padding: 10px 0 10px 20px
+
+  .callback-section-v2 .callback-wrapper
+    padding: 40px 50px
+
+  .callback-section-v2
+    margin: 0 0 -140px
+    &:before
+      width: 400px
+      height: 300px
+
+  .calendar-event h3
+    font-size: 26px
+    line-height: normal
+
+  .calendar-event-box .btn
+    font-size: 20px
+    padding: 15px 20px
+
+  .datepicker-years-item, .datepicker-months-item
+    min-width: 100px
+
+  .datepicker-years-item.active, .datepicker-months-item.active
+    font-size: 30px
+
 @media only screen and (max-width: 1300px)
   .btn-burger
     display: flex
@@ -149,7 +200,28 @@
   .stages-inputs-item__number
     margin: 0 30px 0 0
 
+  .contacts-section-home
+    padding: 0 0 60px
+    .governing-box
+      max-width: 270px
 
+  .contacts-association-box
+    padding: 30px 0
+    font-size: 20px
+
+  .association-section-home
+    padding: 0
+
+  .association-section-home__img
+    width: 500px
+    height: 450px
+
+  .association-section-home__wrapper .box-text
+    margin: 0 0 30px
+    padding: 10px 0 10px 30px
+
+  .association-info__content
+    padding: 70px 0
 
 @media only screen and (max-width: 1200px)
   .home-slider-dots
@@ -310,6 +382,63 @@
         display: none
     .statistics-wrapper
       margin: 40px 0 0
+
+  .breadcrumb-nav
+    margin: 30px 0
+
+  .contacts-section-home
+    h1
+      br
+        display: none
+    .box-text
+      margin: 20px 0 30px
+      max-width: none
+    .governing-box
+      margin: 30px 0 0
+      max-width: calc(33.3% - 8px)
+    .governing-wrapper
+      justify-content: space-around
+
+  .information-association-box
+    padding: 20px
+    h3
+      width: 100%
+      margin: 0 0 10px
+
+  .association-info__img
+    min-width: 900px
+
+  .calendar
+    padding: 70px 0
+
+  .nav-tabs .nav-link
+    font-size: 22px
+
+  .datepicker-years-item.active, .datepicker-months-item.active
+    font-size: 24px
+
+  .ui-datepicker table
+    font-size: 18px
+
+  .tab-content .tab-pane
+    padding: 20px
+
+  .ui-datepicker-calendar td
+    height: 60px
+
+  .nav-tabs .nav-link
+    height: 70px
+    font-size: 18px
+
+  .datepicker-years-item, .datepicker-months-item
+    min-width: 90px
+
+  .datepicker-nav .links
+    font-size: 15px
+
+  .calendar-event h3
+    margin: 0 0 50px
+
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px)
@@ -515,6 +644,73 @@
       justify-content: flex-start
       align-items: flex-start
 
+  .contacts-association
+    padding: 50px 0
+    &:before
+      width: 600px
+      height: 400px
+      -webkit-background-size: contain
+      background-size: contain
+    .btn
+      margin: 0 0 30px auto
+      font-size: 20px
+      padding: 15px 25px
+    h2
+      margin: 0 0 30px
+
+  .map
+    margin: 30px 0 0
+    height: 500px
+
+  .contacts-association-box__icon
+    margin: 0 30px 0 0
+
+  .association-section-home__img
+    position: relative
+    bottom: 0
+    right: 0
+    left: 0
+    max-width: none
+    width: 100%
+    height: auto
+    margin: 30px auto 0
+
+  .information-association-box__body
+    flex-direction: column
+    align-items: flex-start
+
+  .information-association-box .text-left-box, .information-association-box .text-right-box
+    width: 100%
+    border: none
+
+  .information-association-box .text-right-box
+    padding: 20px 0 0
+
+  .association-info__img
+    min-width: auto
+    margin: 0 auto 30px
+    float: none
+    height: auto
+    img
+      height: auto
+      object-fit: contain
+
+  .association-info__content
+    padding: 0 0 30px
+    .links-web
+      width: 30px
+      height: 30px
+      margin: 0 0 20px auto
+
+  .calendar
+    padding: 50px 0
+    h2
+      margin: 0 0 30px
+
+  .calendar-event
+    margin: 40px 0 0
+    h3
+
 @media only screen and (max-width: 768px)
   header
     padding: 20px 0
@@ -608,6 +804,37 @@
       width: 100%
       border: none
       align-items: flex-start
+
+  .contacts-section-home .governing-box
+    max-width: calc(50% - 8px)
+
+  .contacts-association .btn
+    margin: 0 0 30px
+
+  .contacts-association-box
+    font-size: 18px
+    &:before
+      width: 100%
+    &__icon
+      margin: 0 15px 0 0
+
+  .map
+    height: 300px
+
+  .information-association
+    padding: 60px 0
+
+  .datepicker-nav
+    flex-wrap: wrap
+
+  .datepicker-months
+    width: 100%
+    margin: 0 auto 10px
+    order: -1
+    justify-content: center
+    border: none
+    padding: 0
+
 
 
 @media only screen and (max-width: 576px)
@@ -743,6 +970,49 @@
   .differentiation .statistics-item .box-text
     font-size: 24px
 
+  .association-section-home__wrapper
+    flex-direction: column
+    align-items: flex-start
+    .box-text
+      padding: 20px 0 0
+      border: none
+        top: 1px solid #000
+      margin: 0
+
+  .logo-company
+    margin: 0 auto 30px
+
+  .information-association-box
+    width: 100%
+    margin: -0.5px 0
+
+  .callback-section-v2 .callback-wrapper
+    padding: 30px 0
+
+  .datepicker-years
+    width: 100%
+    margin: 0 auto 10px
+    justify-content: center
+
+  .datepicker-nav .links
+    justify-content: center
+    margin: 0 auto
+
+  .ui-datepicker table
+    font-size: 12px
+
+  .ui-datepicker-calendar thead
+    font-size: 14px
+
+  .calendar-event-box .events-box__name
+    font-size: 24px
+
+  .calendar-event-box .events-box__body
+    padding: 20px
+
+  .calendar-event-box .btn
+    font-size: 16px
+
 @media only screen and (max-width: 480px)
   .home-slider-item__img:before
     width: 100%
@@ -762,6 +1032,10 @@
 
   .differentiation h2
     font-size: 28px
+
+  .contacts-section-home .governing-box
+    max-width: none
+    width: 100%
 
 @media only screen and (max-width: 420px)
   .associations-item
@@ -790,3 +1064,13 @@
   .associations-item
     .btn
       margin: 0 0 20px
+
+  .ui-datepicker-calendar td
+    height: 40px
+
+  .ui-datepicker-calendar thead
+    font-size: 12px
+
+  .ui-datepicker-calendar th
+    padding: 10px
+

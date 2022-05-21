@@ -1,0 +1,234 @@
+@import "vars"
+
+/*==========  work section  ==========*/
+.work-home-navigation
+  background: $accent
+  padding: 28px 0
+  font-size: 25px
+
+
+.work-home-navigation__links
+  color: #fff
+
+  &.active
+    font-weight: bold
+
+  &:hover
+    color: $grey
+
+.work-home-navigation__arrow
+  fill: none
+  margin: 0 73px
+  stroke: #fff
+  width: 20px
+  height: 20px
+  display: flex
+  align-items: center
+  justify-content: center
+
+
+.work-home
+  padding: 0 0 130px
+  background: #fff
+  color: #000
+
+  h1
+    font-size: 50px
+    line-height: normal
+
+  &:before
+    display: none
+
+.quiz
+  margin: 57px auto 0
+  width: fit-content
+
+
+.profession
+  padding: 107px 0 130px
+  position: relative
+  overflow: hidden
+
+  .box-text
+    font-weight: normal
+
+  h2
+    margin: 0 0 36px
+
+  &:before
+    content: ''
+    position: absolute
+    top: -223px
+    right: -381px
+    width: 763px
+    height: 676px
+    background: url("../img/logo-figure.svg") no-repeat center
+      size: 100%
+    opacity: .1
+
+.filter-wrapper
+  margin: 80px 0 0
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+
+.filter-item
+  color: #fff
+  border: 1px solid #fff
+  margin: 0 21px 21px 0
+  height: 59px
+  padding: 10px 37px
+  font-size: 25px
+  font-weight: 500
+
+  &:hover
+    background: #fff
+    color: $accent
+
+  &:last-child
+    margin-right: 0
+
+  &.active
+    background: #fff
+    color: #000
+
+.courses
+  width: 100%
+  background: #fff
+  color: #000
+  margin: 23px 0 0
+  padding: 92px 82px 103px
+
+  h3
+    font-size: 42px
+    font-weight: 600
+    margin: 0 0 25px
+
+  .box-text
+    font-size: 23px
+    line-height: 25px
+    font-weight: normal
+    margin: 0 0 48px
+
+.table
+  width: 100%
+  font-size: 18px
+
+  .btn
+    font-size: 14px
+    font-weight: 700
+    padding: 10px
+    height: 37px
+    max-width: 131px
+    width: 100%
+    margin-left: auto
+
+  thead
+    background: #F0F0F0
+    border: none
+
+    th
+      padding: 21px 16px
+      border: none
+        bottom: 1px solid #000
+      vertical-align: middle
+
+  tr
+    border-bottom: 1px solid #000000
+
+  td, th
+    vertical-align: middle
+    border-bottom: 1px solid #000000
+
+  tbody
+    font-size: 20px
+
+  td
+    padding: 34px 16px
+    border-bottom: 1px solid #000000
+
+.list-level
+  display: flex
+  align-items: flex-start
+
+  li
+    width: 24px
+    height: 24px
+    min-width: 24px
+    margin: 0 14px 0 0
+    border: 0.75px solid #000000
+      radius: 50%
+
+    &.active
+      background: $accent
+      border-color: $accent
+/*==========  work section end  ==========*/
+
+
+/*==========  internships section  ==========*/
+.internships
+  padding: 107px 0 127px
+
+  h2
+    margin: 0 0 21px
+
+.internships-wrapper
+  width: 100%
+  display: flex
+  align-items: stretch
+  flex-wrap: wrap
+  justify-content: space-between
+  margin: 32px 0 0
+  background: #F0F0F0
+  padding: 77px 92px
+
+.internships-box
+  width: calc(50% - 12px)
+  margin-bottom: 23px
+  position: relative
+  padding: 38px 75px 47px
+  z-index: 1
+
+  &__logo
+    display: flex
+    align-items: center
+    justify-content: flex-end
+    margin: 0 0 23px auto
+    height: 82px
+    max-width: 217px
+
+    img
+      max-height: 100%
+
+  &__bg
+    position: absolute
+    left: 0
+    top: 0
+    z-index: -1
+
+  .box-text
+    font-size: 18px
+    line-height: 22px
+    font-weight: normal
+    padding: 0 0 17px
+    width: 100%
+    border-bottom: 1px solid #7D7D7D
+
+  h4
+    margin: 0 0 12px
+    font-size: 29px
+    line-height: 32px
+  .btn
+    margin: 23px 0 0 auto
+    height: 44px
+    font-size: 17px
+    padding: 0 22px
+    width: fit-content
+  &.bg-black
+    .box-text
+      border-bottom-color: #fff
+  &.bg-blue
+    .box-text
+      border-bottom-color: #000
+
+/*==========  internships section end  ==========*/

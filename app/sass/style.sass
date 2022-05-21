@@ -91,6 +91,11 @@ input, textarea, select
     outline: none
     box-shadow: none
 
+textarea
+  height: 150px
+  resize: none
+  padding: 10px
+
 
 label
   display: block
@@ -142,6 +147,18 @@ button, .btn
   font-size: 23px
   height: 62px
   padding: 10px 57px
+  &:hover
+    background: $accent
+    color: #fff
+    border-color: $accent
+
+.btn-border-white
+  border: 1px solid #fff
+  color: #fff
+  &:hover
+    background: $accent
+    color: #fff
+    border-color: $accent
 
 .btn-white
   background: #fff
@@ -177,6 +194,7 @@ ul
 
 .my-ul
   list-style: none
+  padding: 0
 
 .container
   max-width: 1610px
@@ -209,6 +227,18 @@ h2
 .bg-accent
   background: $accent
   color: #fff
+
+.bg-black
+  background: #000
+  color: #fff
+
+.bg-white
+  background: #fff
+  color: #000
+
+.bg-blue
+  background: #00BFFE
+  color: #000
 
 .links
   display: flex
@@ -345,6 +375,9 @@ h2
     &:hover
       color: $accent
 
+.breadcrumb-item
+  display: flex
+  align-items: center
 
 .breadcrumb-item+.breadcrumb-item::before, .breadcrumb-item.active
   color: #fff
@@ -355,3 +388,10 @@ h2
   font-size: 29px
   line-height: 43px
 
+.color-grey
+  .breadcrumb a
+    color: #7D7D7D
+    &:hover
+      color: $accent
+  .breadcrumb-item + .breadcrumb-item::before, .breadcrumb-item.active
+    color: #7D7D7D

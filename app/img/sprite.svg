@@ -58,6 +58,13 @@
         <path d="M14.5 10.2718L1 1H28L14.5 10.2718Z" stroke-width="0.75" stroke-linejoin="bevel"/>
     </symbol>
 
+    <symbol id="phone" viewBox="0 0 18 30">
+        <rect x="0.911133" y="1.09351" width="16.1658" height="27.6096" rx="3.5"/>
+        <path d="M6.13281 25.9334H12.6722"/>
+        <rect x="6.63281" y="1.09348" width="4.72192" height="1.45225"/>
+    </symbol>
+
+
     <symbol id="clock" viewBox="0 0 26 26">
         <path d="M13 25C19.6274 25 25 19.6274 25 13C25 6.37258 19.6274 1 13 1C6.37258 1 1 6.37258 1 13C1 19.6274 6.37258 25 13 25Z"
               stroke-width="0.75" stroke-miterlimit="10"/>

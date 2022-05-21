@@ -1,0 +1,99 @@
+/*==========  contacts section  ==========*/
+.contacts-section-home {
+  padding: 0 0 144px;
+  color: #000; }
+  .contacts-section-home:before {
+    display: none; }
+  .contacts-section-home h1 {
+    font-size: 50px;
+    line-height: normal; }
+  .contacts-section-home .box-text {
+    margin: 31px 0 46px;
+    font-weight: normal;
+    max-width: 349px; }
+  .contacts-section-home .btn {
+    font-size: 23px;
+    padding: 10px;
+    height: 94px;
+    max-width: 359px;
+    width: 100%;
+    font-weight: bold; }
+  .contacts-section-home .governing-wrapper {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .contacts-section-home .governing-box {
+    margin: 0 0 0 16px;
+    max-width: 364px;
+    width: 100%; }
+  .contacts-section-home .breadcrumb-nav {
+    margin: 51px 0 91px; }
+
+.contacts-association {
+  padding: 99px 0 124px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden; }
+  .contacts-association:before {
+    content: '';
+    position: absolute;
+    right: -107px;
+    top: -212px;
+    background: url("../img/logo-figure-grey.svg") no-repeat center;
+      background-size: 100%;
+    width: 827px;
+    height: 733px;
+    opacity: .5;
+    z-index: -1; }
+  .contacts-association .btn {
+    margin: 0 0 55px auto;
+    padding: 15px 37px;
+    height: 64px;
+    font-size: 23px; }
+  .contacts-association h2 {
+    margin: 0 0 55px; }
+
+.map {
+  width: 100%;
+  height: 531px; }
+  .map iframe {
+    width: 100%;
+    height: 100%; }
+
+.contacts-association-box {
+  position: relative;
+  padding: 54px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+  font-weight: bold; }
+  .contacts-association-box:before {
+    content: '';
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    bottom: 0;
+    background: #000;
+    height: 1px;
+    width: calc(100% + 30px);
+    position: absolute; }
+  .contacts-association-box__icon {
+    fill: none;
+    stroke: #000;
+    margin: 0 43px 0 0;
+    width: 48px;
+    height: 54px; }
+  .contacts-association-box .mail-icon {
+    height: 33px; }
+  .contacts-association-box .location-icon {
+    height: 54px; }
+  .contacts-association-box .clock-icon {
+    height: 43px; }
+  .contacts-association-box a {
+    color: #000; }
+
+/*==========  contacts section end  ==========*/

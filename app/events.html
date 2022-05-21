@@ -25,9 +25,9 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/association.css">
   <link rel="stylesheet" href="css/it-company.css">
   <link rel="stylesheet" href="css/contacts.css">
+  <link rel="stylesheet" href="css/association.css">
   <link rel="stylesheet" href="css/events.css">
   <link rel="stylesheet" href="css/work.css">
   <link rel="stylesheet" href="css/media.css">
@@ -112,14 +112,14 @@
   </div>
 </header>
 
-<section class="page-section it-company-section">
+<section class="page-section events-home-section">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <nav aria-label="breadcrumb" class="breadcrumb-nav">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
-            <li class="breadcrumb-item active" aria-current="page">IT-компаниям</li>
+            <li class="breadcrumb-item active" aria-current="page">Мероприятия</li>
           </ol>
         </nav>
       </div>
@@ -136,71 +136,144 @@
   </div>
 </section>
 
-<section class="advantages">
+<section class="calendar bg-grey">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <h2>Преимущества членства</h2>
-      </div>
-    </div>
+      <div class="col-12 col-lg-8">
+        <h2>Календарь мероприятий</h2>
 
-    <div class="row">
-      <div class="col-12 col-sm-6 col-md-4">
-        <div class="advantages-box">
-          <div class="advantages-box__icon"><img src="img/advantages-icon1.svg" alt=""></div>
-          <div class="box-text">
-            <p>Популяризация бренда компаний как на рынке заказчиков, так и на рынке работников</p>
-            <span>(выставки, конференции, ярмарки вакансий, каналы связи в вузах, социальные сети, видео, сайт, стенд в ПГУ и т.д.)</span>
+        <ul class="nav nav-pills nav-tabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="pills-secon-tab" data-toggle="pill" href="#pills-secon" role="tab"
+               aria-controls="pills-secon" aria-selected="true">SECON</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-pgu-tab" data-toggle="pill" href="#pills-pgu" role="tab"
+               aria-controls="pills-pgu" aria-selected="false">ПГУ</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-internships-tab" data-toggle="pill" href="#pills-internships" role="tab"
+               aria-controls="pills-internships" aria-selected="false">Стажировки</a>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-internships2-tab" data-toggle="pill" href="#pills-internships2" role="tab"
+               aria-controls="pills-internships2" aria-selected="false">Стажировки</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="pills-secon" role="tabpanel" aria-labelledby="pills-secon-tab">
+
+            <div class="datepicker-nav">
+              <div class="datepicker-years">
+                <a href="#" class="datepicker-years-item active">2022</a>
+                <a href="#" class="datepicker-years-item">2023</a>
+              </div>
+
+              <div class="datepicker-months">
+                <a href="#" class="datepicker-months-item">Апрель</a>
+                <a href="#" class="datepicker-months-item active">Май</a>
+                <a href="#" class="datepicker-months-item">Июнь</a>
+              </div>
+
+              <a href="#" class="links">
+                <span class="links-text">Смотреть все</span>
+                <span class="links-arrow"><svg class="svg-icon"><use
+                    xlink:href="img/sprite.svg#arrow-right"></use></svg></span>
+              </a>
+            </div>
+
+            <div class="datepicker"></div>
+          </div>
+          <div class="tab-pane fade" id="pills-pgu" role="tabpanel" aria-labelledby="pills-pgu-tab">
+            <div class="datepicker-nav">
+              <div class="datepicker-years">
+                <a href="#" class="datepicker-years-item active">2022</a>
+                <a href="#" class="datepicker-years-item">2023</a>
+              </div>
+
+              <div class="datepicker-months">
+                <a href="#" class="datepicker-months-item">Апрель</a>
+                <a href="#" class="datepicker-months-item active">Май</a>
+                <a href="#" class="datepicker-months-item">Июнь</a>
+              </div>
+
+              <a href="#" class="links">
+                <span class="links-text">Смотреть все</span>
+                <span class="links-arrow"><svg class="svg-icon"><use
+                    xlink:href="img/sprite.svg#arrow-right"></use></svg></span>
+              </a>
+            </div>
+
+            <div class="datepicker"></div>
+          </div>
+
+          <div class="tab-pane fade" id="pills-internships" role="tabpanel" aria-labelledby="pills-internships-tab">
+            <div class="datepicker-nav">
+              <div class="datepicker-years">
+                <a href="#" class="datepicker-years-item active">2022</a>
+                <a href="#" class="datepicker-years-item">2023</a>
+              </div>
+
+              <div class="datepicker-months">
+                <a href="#" class="datepicker-months-item">Апрель</a>
+                <a href="#" class="datepicker-months-item active">Май</a>
+                <a href="#" class="datepicker-months-item">Июнь</a>
+              </div>
+
+              <a href="#" class="links">
+                <span class="links-text">Смотреть все</span>
+                <span class="links-arrow"><svg class="svg-icon"><use
+                    xlink:href="img/sprite.svg#arrow-right"></use></svg></span>
+              </a>
+            </div>
+
+            <div class="datepicker"></div>
+          </div>
+          <div class="tab-pane fade" id="pills-internships2" role="tabpanel" aria-labelledby="pills-internships2-tab">
+            <div class="datepicker-nav">
+              <div class="datepicker-years">
+                <a href="#" class="datepicker-years-item active">2022</a>
+                <a href="#" class="datepicker-years-item">2023</a>
+              </div>
+
+              <div class="datepicker-months">
+                <a href="#" class="datepicker-months-item">Апрель</a>
+                <a href="#" class="datepicker-months-item active">Май</a>
+                <a href="#" class="datepicker-months-item">Июнь</a>
+              </div>
+
+              <a href="#" class="links">
+                <span class="links-text">Смотреть все</span>
+                <span class="links-arrow"><svg class="svg-icon"><use
+                    xlink:href="img/sprite.svg#arrow-right"></use></svg></span>
+              </a>
+            </div>
+
+            <div class="datepicker"></div>
           </div>
         </div>
       </div>
 
-      <div class="col-12 col-sm-6 col-md-4">
-        <div class="advantages-box">
-          <div class="advantages-box__icon"><img src="img/advantages-icon2.svg" alt=""></div>
-          <div class="box-text">
-            <p>Каналы связи с региональными учреждениями высшего и среднего образования</p>
-            <span>(общий календарь мероприятий, чат с преподавателями, центры занятости, возможность посещения лекций)</span>
-          </div>
-        </div>
-      </div>
+      <div class="col-12 col-lg-4">
+        <div class="calendar-event">
+          <h3>Ближайшие мероприятия</h3>
 
-      <div class="col-12 col-sm-6 col-md-4">
-        <div class="advantages-box">
-          <div class="advantages-box__icon"><img src="img/advantages-icon3.svg" alt=""></div>
-          <div class="box-text">
-            <p>Организация массовых мероприятий, направленных на развитие отрасли и популяризацию IT</p>
-            <span>в том числе с привлечением грантовых средств (meetup, конференции, quiz, день IT) - пока оплачивается дополнительно</span>
-          </div>
-        </div>
-      </div>
+          <div class="events-box calendar-event-box">
+            <a href="#" class="events-box__img"><img src="img/events.jpeg" alt=""></a>
+            <div class="events-box__body">
+              <div class="events-box__head">
+                <div class="date">01.01.2022</div>
 
-      <div class="col-12 col-sm-6 col-md-4">
-        <div class="advantages-box">
-          <div class="advantages-box__icon"><img src="img/advantages-icon4.svg" alt=""></div>
-          <div class="box-text">
-            <p>Организация взаимодействия внутри Ассоциации</p>
-            <span>(Общие собрания в неформальной обстановке, общение в чатах с предложениями заказчиков и исполнителей)</span>
-          </div>
-        </div>
-      </div>
+                <a href="#" class="events-box__name">Название мероприятия</a>
+              </div>
+              <div class="box-text">
+                <p>Краткое описание мероприятия, основные тезисы</p>
+              </div>
 
-      <div class="col-12 col-sm-6 col-md-4">
-        <div class="advantages-box">
-          <div class="advantages-box__icon"><img src="img/advantages-icon5.svg" alt=""></div>
-          <div class="box-text">
-            <p>Организация досуга для сотрудников компаний</p>
-            <span>предложение инициатив для улучшения трудовых условий на основе опросов Ассоциации</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-4">
-        <div class="advantages-box">
-          <div class="advantages-box__icon"><img src="img/advantages-icon6.svg" alt=""></div>
-          <div class="box-text">
-            <p>Организация мероприятий для рекругинта</p>
-            <span>(стажировки, speed.recruiting, it.лаборатория)</span>
+              <a href="#" class="btn btn-accent" data-toggle="modal" data-target="#callModal">Записаться на
+                мероприятие</a>
+            </div>
           </div>
         </div>
       </div>
@@ -208,75 +281,102 @@
   </div>
 </section>
 
-<section class="stages-inputs bg-accent">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-3">
-        <h2>Как вступить
-          в Ассоциацию</h2>
-      </div>
-
-      <div class="col-12 col-lg-9">
-        <a href="#" class="stages-inputs-item">
-          <span class="stages-inputs-item__number">1</span>
-          <span class="stages-inputs-item__name">Ознакомиться с уставном и проектом договора</span>
-          <span class="stages-inputs-item__arrow"><svg class="svg-icon"><use
-              xlink:href="img/sprite.svg#right"></use></svg></span>
-        </a>
-        <a href="#" class="stages-inputs-item">
-          <span class="stages-inputs-item__number">2</span>
-          <span class="stages-inputs-item__name">Подать заявку на вступление</span>
-          <span class="stages-inputs-item__arrow"><svg class="svg-icon"><use
-              xlink:href="img/sprite.svg#right"></use></svg></span>
-        </a>
-        <div class="stages-inputs-item">
-          <span class="stages-inputs-item__number">3</span>
-          <span class="stages-inputs-item__name">Прийти на собрание</span>
-        </div>
-        <div class="stages-inputs-item">
-          <span class="stages-inputs-item__number">4</span>
-          <span class="stages-inputs-item__name">Подписать договор</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="differentiation bg-grey">
+<section class="events pb-0 bg-accent">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-12 col-lg-7">
-        <h2>Дифференциация членских взносов <br>
-          по численности сотрудников компании</h2>
+      <div class="col-12 col-sm-7">
+        <h2>Состоявшиеся мероприятия</h2>
       </div>
 
-      <div class="col-12 col-lg-5">
-        <a href="#" class="btn btn-border-grey">Подробнее</a>
+      <div class="col-12 col-sm-5">
+        <a href="#" class="links">
+          <span class="links-text">Смотреть все</span>
+          <span class="links-arrow"><svg class="svg-icon"><use
+              xlink:href="img/sprite.svg#arrow-right"></use></svg></span>
+        </a>
       </div>
     </div>
-
     <div class="row">
-      <div class="col-12">
-        <div class="statistics-wrapper">
-          <div class="statistics-item">
+      <div class="col-12 col-sm-6 col-lg-3 mb-30">
+        <div class="events-box">
+          <a href="#" class="events-box__img"><img src="img/events.jpeg" alt=""></a>
+          <div class="events-box__body">
+            <div class="events-box__head">
+              <div class="date">01.01.2022</div>
+              <a href="#" class="links-web">
+                <svg class="svg-icon">
+                  <use xlink:href="img/sprite.svg#arrow-link-top"></use>
+                </svg>
+              </a>
+
+              <a href="#" class="events-box__name">Название мероприятия
+                Название</a>
+            </div>
             <div class="box-text">
-              <h3>7000</h3>
-              <p>руб./месяц</p>
-              <span>менее 10 человек</span>
+              <p>Краткое описание мероприятия, основные тезисы</p>
             </div>
           </div>
-          <div class="statistics-item">
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-30">
+        <div class="events-box">
+          <a href="#" class="events-box__img"><img src="img/events.jpeg" alt=""></a>
+          <div class="events-box__body">
+            <div class="events-box__head">
+              <div class="date">01.01.2022</div>
+              <a href="#" class="links-web">
+                <svg class="svg-icon">
+                  <use xlink:href="img/sprite.svg#arrow-link-top"></use>
+                </svg>
+              </a>
+
+              <a href="#" class="events-box__name">Название мероприятия
+                Название</a>
+            </div>
             <div class="box-text">
-              <h3>12000</h3>
-              <p>руб./месяц</p>
-              <span>от 11 до 30 человек</span>
+              <p>Краткое описание мероприятия, основные тезисы</p>
             </div>
           </div>
-          <div class="statistics-item">
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-30">
+        <div class="events-box">
+          <a href="#" class="events-box__img"><img src="img/events.jpeg" alt=""></a>
+          <div class="events-box__body">
+            <div class="events-box__head">
+              <div class="date">01.01.2022</div>
+              <a href="#" class="links-web">
+                <svg class="svg-icon">
+                  <use xlink:href="img/sprite.svg#arrow-link-top"></use>
+                </svg>
+              </a>
+
+              <a href="#" class="events-box__name">Название мероприятия
+                Название</a>
+            </div>
             <div class="box-text">
-              <h3>17 000</h3>
-              <p>руб./месяц</p>
-              <span>более 31 человека</span>
+              <p>Краткое описание мероприятия, основные тезисы</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-30">
+        <div class="events-box">
+          <a href="#" class="events-box__img"><img src="img/events.jpeg" alt=""></a>
+          <div class="events-box__body">
+            <div class="events-box__head">
+              <div class="date">01.01.2022</div>
+              <a href="#" class="links-web">
+                <svg class="svg-icon">
+                  <use xlink:href="img/sprite.svg#arrow-link-top"></use>
+                </svg>
+              </a>
+
+              <a href="#" class="events-box__name">Название мероприятия
+                Название</a>
+            </div>
+            <div class="box-text">
+              <p>Краткое описание мероприятия, основные тезисы</p>
             </div>
           </div>
         </div>
@@ -285,124 +385,7 @@
   </div>
 </section>
 
-
-<section class="documents">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2>Документация</h2>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-4 mb-30">
-        <div class="documents-box">
-          <div class="documents-box__icon">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#file"></use>
-            </svg>
-          </div>
-          <a href="#" class="documents-box__name">Название
-            документа</a>
-
-          <a href="#" class="links-web">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4 mb-30">
-        <div class="documents-box">
-          <div class="documents-box__icon">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#file"></use>
-            </svg>
-          </div>
-          <a href="#" class="documents-box__name">Название
-            документа</a>
-
-          <a href="#" class="links-web">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4 mb-30">
-        <div class="documents-box">
-          <div class="documents-box__icon">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#file"></use>
-            </svg>
-          </div>
-          <a href="#" class="documents-box__name">Название
-            документа</a>
-
-          <a href="#" class="links-web">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4 mb-30">
-        <div class="documents-box">
-          <div class="documents-box__icon">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#file"></use>
-            </svg>
-          </div>
-          <a href="#" class="documents-box__name">Название
-            документа</a>
-
-          <a href="#" class="links-web">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4 mb-30">
-        <div class="documents-box">
-          <div class="documents-box__icon">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#file"></use>
-            </svg>
-          </div>
-          <a href="#" class="documents-box__name">Название
-            документа</a>
-
-          <a href="#" class="links-web">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4 mb-30">
-        <div class="documents-box">
-          <div class="documents-box__icon">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#file"></use>
-            </svg>
-          </div>
-          <a href="#" class="documents-box__name">Название
-            документа</a>
-
-          <a href="#" class="links-web">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="callback-section">
+<section class="callback-section callback-section-v2 bg-accent">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -564,6 +547,31 @@
 
           <label>
             <input type="text" placeholder="Телефон" name="phone" required>
+          </label>
+          <button type="submit" class="btn btn-white">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="questionModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Задать вопрос</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <form method="post" class="form form-callback">
+
+          <label>
+            <input type="text" placeholder="E-mail" name="mail" required>
+          </label>
+
+          <label>
+            <textarea name="message" placeholder="Задайте вопрос"></textarea>
           </label>
           <button type="submit" class="btn btn-white">Отправить</button>
         </form>
