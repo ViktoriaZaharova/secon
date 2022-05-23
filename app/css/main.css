@@ -313,9 +313,10 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    height: 114px; }
+    height: 114px;
+    max-width: 230px; }
     .associations-item__logo img {
-      max-width: 230px;
+      max-width: 100%;
       max-height: 100%; }
   .associations-item .links-web {
     stroke: #000;
@@ -468,6 +469,9 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin: 0 0 30px; }
+
+.partners-slider .slick-list {
+  margin: 0 -1px; }
 
 .partners-slider .slick-slide.slick-current .partners-slider-item {
   border-left-width: 1px; }
