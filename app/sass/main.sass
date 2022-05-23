@@ -406,10 +406,13 @@
 
 .partners-slider
   .slick-list
-    margin: 0 -1px
+    border:
+      left: 1px solid #000
+      right: 1px solid #000
+    margin: 0 -0.5px
   .slick-slide.slick-current
-    .partners-slider-item
-      border-left-width: 1px
+    //.partners-slider-item
+    //  border-left: 1px solid #000
 
 .partners-slider-item
   height: 115px
@@ -423,7 +426,8 @@
   font-weight: 700
   box-sizing: border-box
   border: 1px solid #000
-    left-width: 0
+    left: none
+    //right: none
   margin-bottom: -1px
   img
     max-height: 100%
