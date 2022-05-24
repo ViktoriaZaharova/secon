@@ -125,8 +125,52 @@ $(window).on("load", function () {
     $(".mCustomScrollbar-wrap").mCustomScrollbar({
         // theme: "light-thick",
         alwaysShowScrollbar: 2,
-        scrollButtons:{ enable: true }
+        scrollButtons: {enable: true}
     });
 });
 
+$(window).scroll(function () {
+    var heightHeader = $('header').height();
+    if ($(this).scrollTop() > heightHeader) {
+        $('.work-home-navigation').addClass('fixed');
+    } else {
+        $('.work-home-navigation').removeClass('fixed');
+    }
+});
+
+// подсвечивание активной ссылке при скролле + плавный скролл к секции по клику на пункт меню
+var sections = $('.section-anchor'),
+    nav = $('.work-home-navigation'),
+    nav_height = nav.outerHeight();
+
+$(window).on('scroll', function () {
+    var cur_pos = $(this).scrollTop();
+
+    sections.each(function () {
+        var top = $(this).offset().top - nav_height,
+            bottom = top + $(this).outerHeight();
+
+        if (cur_pos >= top && cur_pos <= bottom) {
+            nav.find('.work-home-navigation__links').removeClass('active');
+            sections.removeClass('active');
+
+            $(this).addClass('active');
+            nav.find('.work-home-navigation__links[href="#' + $(this).attr('id') + '"]').addClass('active');
+        }
+    });
+});
+
+nav.find('.work-home-navigation__links').on('click', function () {
+    var $el = $(this),
+        id = $el.attr('href');
+
+    $('html, body').animate({
+        scrollTop: $(id).offset().top - nav_height
+    }, 500);
+
+    return false;
+});
+
 new WOW().init();
+
+

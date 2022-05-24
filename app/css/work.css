@@ -2,7 +2,13 @@
 .work-home-navigation {
   background: #324C88;
   padding: 28px 0;
-  font-size: 25px; }
+  font-size: 25px;
+  width: 100%;
+  z-index: 3; }
+  .work-home-navigation.fixed {
+    position: fixed;
+    left: 0;
+    top: 0; }
 
 .work-home-navigation__links {
   color: #fff; }

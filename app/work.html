@@ -21,7 +21,10 @@
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css" integrity="sha512-6qkvBbDyl5TDJtNJiC8foyEVuB6gxMBkrKy67XpqnIDxyvLLPJzmTjAj1dRJfNdmXWqD10VbJoeN4pOQqDwvRA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"
+        integrity="sha512-6qkvBbDyl5TDJtNJiC8foyEVuB6gxMBkrKy67XpqnIDxyvLLPJzmTjAj1dRJfNdmXWqD10VbJoeN4pOQqDwvRA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/footer.css">
@@ -37,821 +40,60 @@
 
 <body>
 
-<div class="mobile-menu">
-  <div class="btn-close-menu"></div>
-  <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
-  <ul class="menu my-ul">
-    <li><a href="association.html">Ассоциация</a></li>
-    <li><a href="news.html">Новости</a></li>
-    <li><a href="it-company.html">IT-компаниям</a></li>
-    <li><a href="customers.html">Заказчикам</a></li>
-    <li><a href="work.html">Работа в IT</a></li>
-    <li><a href="events.html">Мероприятия</a></li>
-    <li><a href="contacts.html">Контакты</a></li>
-  </ul>
+<div class="wrapper">
+  <div class="mobile-menu">
+    <div class="btn-close-menu"></div>
+    <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
+    <ul class="menu my-ul">
+      <li><a href="association.html">Ассоциация</a></li>
+      <li><a href="news.html">Новости</a></li>
+      <li><a href="it-company.html">IT-компаниям</a></li>
+      <li><a href="customers.html">Заказчикам</a></li>
+      <li><a href="work.html">Работа в IT</a></li>
+      <li><a href="events.html">Мероприятия</a></li>
+      <li><a href="contacts.html">Контакты</a></li>
+    </ul>
 
-  <ul class="list-social my-ul">
-    <li><a href="#">
-      <svg class="svg-icon">
-        <use xlink:href="img/sprite.svg#tg"></use>
-      </svg>
-    </a></li>
-    <li><a href="#">
-      <svg class="svg-icon">
-        <use xlink:href="img/sprite.svg#vk"></use>
-      </svg>
-    </a></li>
-    <li><a href="#">
-      <svg class="svg-icon">
-        <use xlink:href="img/sprite.svg#youtube"></use>
-      </svg>
-    </a></li>
-  </ul>
-</div>
-
-<header>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 d-flex flex-wrap align-items-center">
-        <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
-        <ul class="menu my-ul">
-          <li><a href="association.html">Ассоциация</a></li>
-          <li><a href="news.html">Новости</a></li>
-          <li><a href="it-company.html">IT-компаниям</a></li>
-          <li><a href="customers.html">Заказчикам</a></li>
-          <li><a href="work.html">Работа в IT</a></li>
-          <li><a href="events.html">Мероприятия</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-
-        <div class="btn-burger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-
-        <ul class="list-social my-ul">
-          <li><a href="#">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#tg"></use>
-            </svg>
-          </a></li>
-          <li><a href="#">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#vk"></use>
-            </svg>
-          </a></li>
-          <li><a href="#">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#youtube"></use>
-            </svg>
-          </a></li>
-        </ul>
-        <a href="#" class="btn btn-accent" data-toggle="modal" data-target="#callModal">Вступить</a>
-      </div>
-    </div>
+    <ul class="list-social my-ul">
+      <li><a href="#">
+        <svg class="svg-icon">
+          <use xlink:href="img/sprite.svg#tg"></use>
+        </svg>
+      </a></li>
+      <li><a href="#">
+        <svg class="svg-icon">
+          <use xlink:href="img/sprite.svg#vk"></use>
+        </svg>
+      </a></li>
+      <li><a href="#">
+        <svg class="svg-icon">
+          <use xlink:href="img/sprite.svg#youtube"></use>
+        </svg>
+      </a></li>
+    </ul>
   </div>
-</header>
 
-<section class="bg-grey work-home page-section">
-  <div class="work-home-navigation">
+  <header>
     <div class="container">
       <div class="row">
-        <div class="col-12 d-flex flex-wrap align-items-center justify-content-center">
-          <a href="#" class="work-home-navigation__links active">Профориентация</a>
-          <div class="work-home-navigation__arrow">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#right"></use>
-            </svg>
-          </div>
-          <a href="#" class="work-home-navigation__links">Обучение</a>
-          <div class="work-home-navigation__arrow">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#right"></use>
-            </svg>
-          </div>
-          <a href="#" class="work-home-navigation__links">Стажировка</a>
-          <div class="work-home-navigation__arrow">
-            <svg class="svg-icon">
-              <use xlink:href="img/sprite.svg#right"></use>
-            </svg>
-          </div>
-          <a href="#" class="work-home-navigation__links">Трудоустройство</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <nav aria-label="breadcrumb" class="breadcrumb-nav color-grey">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Работа в IT</li>
-          </ol>
-        </nav>
-      </div>
-
-      <div class="col-12">
-        <h1>Узнай, какая IT-профессия подходит именно тебе</h1>
-
-        <div class="quiz"><img src="img/quiz.png" alt=""></div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<section class="profession bg-accent">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-10">
-        <h2>Профессии в IT</h2>
-        <div class="box-text">
-          <p>Информационные технологии уже не первое десятилетие возглавляют рейтинг самых
-            востребованных отраслей. Вместе с этим в IT сфере появляется множество новых профессий</p>
-        </div>
-
-        <div class="filter-wrapper">
-          <a href="#" class="filter-item active">Аналитик</a>
-          <a href="#" class="filter-item">Дизайнер</a>
-          <a href="#" class="filter-item">Разработчики iOS</a>
-          <a href="#" class="filter-item">ERP-программист</a>
-          <a href="#" class="filter-item">Администратор базы данных</a>
-          <a href="#" class="filter-item">Администратор сайта</a>
-          <a href="#" class="filter-item">Frontend разработчик</a>
-          <a href="#" class="filter-item">Аналитик</a>
-          <a href="#" class="filter-item">Дизайнер</a>
-          <a href="#" class="filter-item">Разработчики iOS</a>
-          <a href="#" class="filter-item">ERP-программист</a>
-        </div>
-      </div>
-
-      <div class="col-12">
-        <div class="courses">
-          <h3>Топ курсов</h3>
-
-          <div class="box-text">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-              laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-              ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in
-              hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
-              eros et accumsan et iusto odio dignissim qui blandit </p>
-          </div>
-
-          <div class="table-responsive">
-            <table class="table">
-              <thead>
-              <tr>
-                <th><p>Скидка</p></th>
-                <th><p>Направление</p></th>
-                <th><p>Место <br>реализации</p></th>
-                <th><p>Сроки <br>
-                  обучения</p></th>
-                <th><p>Уровень вступительных <br>знаний</p></th>
-                <th><p>Формат <br>
-                  обучения</p></th>
-                <th></th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td>
-                  <div class="percent">10%</div>
-                </td>
-                <td><p><strong>UX/UI-дизайнер</strong></p></td>
-                <td><p>ПГУ</p></td>
-                <td>
-                  <p><strong>2 месяца </strong></p>
-                </td>
-                <td>
-                  <ul class="list-level my-ul">
-                    <li class="list-level__item active"></li>
-                    <li class="list-level__item"></li>
-                    <li class="list-level__item"></li>
-                    <li class="list-level__item"></li>
-                    <li class="list-level__item"></li>
-                  </ul>
-                </td>
-                <td>
-                  <p>Онлайн</p>
-                </td>
-                <td>
-                  <a href="#" class="btn btn-border-grey">Подробнее</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="percent">10%</div>
-                </td>
-                <td><p><strong>Data Scientist</strong></p></td>
-                <td><p>Неотология</p></td>
-                <td>
-                  <p><strong>2 года</strong></p>
-                </td>
-                <td>
-                  <ul class="list-level my-ul">
-                    <li class="list-level__item active"></li>
-                    <li class="list-level__item active"></li>
-                    <li class="list-level__item"></li>
-                    <li class="list-level__item"></li>
-                    <li class="list-level__item"></li>
-                  </ul>
-                </td>
-                <td>
-                  <p>Онлайн</p>
-                </td>
-                <td>
-                  <a href="#" class="btn btn-border-grey">Подробнее</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="percent">10%</div>
-                </td>
-                <td><p><strong>Аналитик BI</strong></p></td>
-                <td><p>МГУ</p></td>
-                <td>
-                  <p><strong>4 месяца</strong></p>
-                </td>
-                <td>
-                  <ul class="list-level my-ul">
-                    <li class="list-level__item active"></li>
-                    <li class="list-level__item active"></li>
-                    <li class="list-level__item active"></li>
-                    <li class="list-level__item"></li>
-                    <li class="list-level__item"></li>
-                  </ul>
-                </td>
-                <td>
-                  <p>Онлайн</p>
-                </td>
-                <td>
-                  <a href="#" class="btn btn-border-grey">Подробнее</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="percent">10%</div>
-                </td>
-                <td><p><strong>ERP-программист</strong></p></td>
-                <td><p>Setters</p></td>
-                <td>
-                  <p><strong>6 месяцев </strong></p>
-                </td>
-                <td>
-                  <ul class="list-level my-ul">
-                    <li class="list-level__item active"></li>
-                    <li class="list-level__item"></li>
-                    <li class="list-level__item"></li>
-                    <li class="list-level__item"></li>
-                    <li class="list-level__item"></li>
-                  </ul>
-                </td>
-                <td>
-                  <p>Онлайн</p>
-                </td>
-                <td>
-                  <a href="#" class="btn btn-border-grey">Подробнее</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="percent">10%</div>
-                </td>
-                <td><p><strong>Администратор <br>
-                  базы данных</strong></p></td>
-                <td><p>Неотология</p></td>
-                <td>
-                  <p><strong>1 год </strong></p>
-                </td>
-                <td>
-                  <ul class="list-level my-ul">
-                    <li class="list-level__item active"></li>
-                    <li class="list-level__item active"></li>
-                    <li class="list-level__item"></li>
-                    <li class="list-level__item"></li>
-                    <li class="list-level__item"></li>
-                  </ul>
-                </td>
-                <td>
-                  <p>Онлайн</p>
-                </td>
-                <td>
-                  <a href="#" class="btn btn-border-grey">Подробнее</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="percent">10%</div>
-                </td>
-                <td><p><strong>Frontend <br>
-                  разработчик</strong></p></td>
-                <td><p>Setters</p></td>
-                <td>
-                  <p><strong>3,5 месяца </strong></p>
-                </td>
-                <td>
-                  <ul class="list-level my-ul">
-                    <li class="list-level__item active"></li>
-                    <li class="list-level__item"></li>
-                    <li class="list-level__item"></li>
-                    <li class="list-level__item"></li>
-                    <li class="list-level__item"></li>
-                  </ul>
-                </td>
-                <td>
-                  <p>Онлайн</p>
-                </td>
-                <td>
-                  <a href="#" class="btn btn-border-grey">Подробнее</a>
-                </td>
-              </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="internships">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-10">
-        <h2>Стажировки</h2>
-        <div class="box-text">
-          <p>Информационные технологии уже не первое десятилетие возглавляют рейтинг самых
-            востребованных отраслей. Вместе с этим в IT сфере появляется множество новых профессий</p>
-        </div>
-      </div>
-
-      <div class="col-12">
-        <div class="internships-wrapper">
-          <div class="internships-box internships-box1 bg-white">
-            <div class="internships-box__logo"><img src="img/it-lab.png" alt=""></div>
-            <h4>Заголовок</h4>
-            <div class="box-text"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-              euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p></div>
-            <a href="#" class="btn btn-border-grey">Подробнее</a>
-          </div>
-          <div class="internships-box internships-box2 bg-black">
-            <img src="img/bg-internships1.png" alt="" class="internships-box__bg">
-            <div class="internships-box__logo"><img src="img/igrohub.png" alt=""></div>
-            <h4>Заголовок</h4>
-            <div class="box-text"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-              euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p></div>
-            <a href="#" class="btn btn-border-white">Подробнее</a>
-          </div>
-          <div class="internships-box internships-box3 bg-black">
-            <div class="internships-box__logo"><img src="img/tortuga-white.svg" alt=""></div>
-            <h4>Заголовок</h4>
-            <div class="box-text"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-              euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p></div>
-            <a href="#" class="btn btn-border-white">Подробнее</a>
-          </div>
-          <div class="internships-box internships-box4 bg-blue">
-            <div class="internships-box__logo"><img src="img/software.png" alt=""></div>
-            <h4>Заголовок</h4>
-            <div class="box-text"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-              euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p></div>
-            <a href="#" class="btn btn-border">Подробнее</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="vacancies-company">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-10">
-        <h2>Вакансии компаний Ассоциации</h2>
-        <div class="box-text">
-          <p>Информационные технологии уже не первое десятилетие возглавляют рейтинг самых
-            востребованных отраслей. Вместе с этим в IT сфере появляется множество новых профессий</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="vacancies-company-wrapper bg-grey">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="filter-wrapper">
-            <a href="#" class="filter-item filter-item-black active">CodeInside</a>
-            <a href="#" class="filter-item filter-item-black">Bit games</a>
-            <a href="#" class="filter-item filter-item-black">Разработчики iOS</a>
-            <a href="#" class="filter-item filter-item-black">Tortuga</a>
-            <a href="#" class="filter-item filter-item-black">OKDESK</a>
-            <a href="#" class="filter-item filter-item-black">Моё дело</a>
-            <a href="#" class="filter-item filter-item-black">XOCUS</a>
-            <a href="#" class="filter-item filter-item-black">Росоператор</a>
-            <a href="#" class="filter-item filter-item-black">Reliable systems</a>
-            <a href="#" class="filter-item filter-item-black">СофтИнвент</a>
-            <a href="#" class="filter-item filter-item-black">VENTRA</a>
-            <a href="#" class="filter-item filter-item-black">Open Solutions</a>
-          </div>
-
-          <div class="vacancies-company-details">
-            <div class="vacancies-company-item">
-              <div class="association-section-home__wrapper">
-                <div class="logo-company"><img src="img/tortuga.svg" alt=""></div>
-                <div class="box-text">
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                    ut
-                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
-
-                  <a href="#" class="btn btn-border-grey">Подробнее</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="vacancies-company-list bg-grey">
-              <div class="mCustomScrollbar-wrap">
-                <div class="vacancies-col">
-                  <div class="vacancies-col__head">
-                    <h4>Devops инженер</h4>
-                    <a href="#" class="links">
-                      <svg class="svg-icon">
-                        <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-                      </svg>
-                    </a>
-                  </div>
-                  <div class="vacancies-col__body">
-                    <div class="box-text">
-                      <ul>
-                        <li>поддержка и развитие серверной инфраструктуры</li>
-                        <li>внедрение практик devops</li>
-                        <li>создание окружений для разработки/тестирования/продакшена</li>
-                        <li>мониторинг систем</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="vacancies-col">
-                  <div class="vacancies-col__head">
-                    <h4>Devops инженер</h4>
-                    <a href="#" class="links">
-                      <svg class="svg-icon">
-                        <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-                      </svg>
-                    </a>
-                  </div>
-                  <div class="vacancies-col__body">
-                    <div class="box-text">
-                      <ul>
-                        <li>поддержка и развитие серверной инфраструктуры</li>
-                        <li>внедрение практик devops</li>
-                        <li>создание окружений для разработки/тестирования/продакшена</li>
-                        <li>мониторинг систем</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="vacancies-col">
-                  <div class="vacancies-col__head">
-                    <h4>Devops инженер</h4>
-                    <a href="#" class="links">
-                      <svg class="svg-icon">
-                        <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-                      </svg>
-                    </a>
-                  </div>
-                  <div class="vacancies-col__body">
-                    <div class="box-text">
-                      <ul>
-                        <li>поддержка и развитие серверной инфраструктуры</li>
-                        <li>внедрение практик devops</li>
-                        <li>создание окружений для разработки/тестирования/продакшена</li>
-                        <li>мониторинг систем</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="vacancies-col">
-                  <div class="vacancies-col__head">
-                    <h4>Devops инженер</h4>
-                    <a href="#" class="links">
-                      <svg class="svg-icon">
-                        <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-                      </svg>
-                    </a>
-                  </div>
-                  <div class="vacancies-col__body">
-                    <div class="box-text">
-                      <ul>
-                        <li>поддержка и развитие серверной инфраструктуры</li>
-                        <li>внедрение практик devops</li>
-                        <li>создание окружений для разработки/тестирования/продакшена</li>
-                        <li>мониторинг систем</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="vacancies-col">
-                  <div class="vacancies-col__head">
-                    <h4>Devops инженер</h4>
-                    <a href="#" class="links">
-                      <svg class="svg-icon">
-                        <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-                      </svg>
-                    </a>
-                  </div>
-                  <div class="vacancies-col__body">
-                    <div class="box-text">
-                      <ul>
-                        <li>поддержка и развитие серверной инфраструктуры</li>
-                        <li>внедрение практик devops</li>
-                        <li>создание окружений для разработки/тестирования/продакшена</li>
-                        <li>мониторинг систем</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="vacancies-col">
-                  <div class="vacancies-col__head">
-                    <h4>Devops инженер</h4>
-                    <a href="#" class="links">
-                      <svg class="svg-icon">
-                        <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-                      </svg>
-                    </a>
-                  </div>
-                  <div class="vacancies-col__body">
-                    <div class="box-text">
-                      <ul>
-                        <li>поддержка и развитие серверной инфраструктуры</li>
-                        <li>внедрение практик devops</li>
-                        <li>создание окружений для разработки/тестирования/продакшена</li>
-                        <li>мониторинг систем</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="vacancies-col">
-                  <div class="vacancies-col__head">
-                    <h4>Devops инженер</h4>
-                    <a href="#" class="links">
-                      <svg class="svg-icon">
-                        <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-                      </svg>
-                    </a>
-                  </div>
-                  <div class="vacancies-col__body">
-                    <div class="box-text">
-                      <ul>
-                        <li>поддержка и развитие серверной инфраструктуры</li>
-                        <li>внедрение практик devops</li>
-                        <li>создание окружений для разработки/тестирования/продакшена</li>
-                        <li>мониторинг систем</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="vacancies-col">
-                  <div class="vacancies-col__head">
-                    <h4>Devops инженер</h4>
-                    <a href="#" class="links">
-                      <svg class="svg-icon">
-                        <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-                      </svg>
-                    </a>
-                  </div>
-                  <div class="vacancies-col__body">
-                    <div class="box-text">
-                      <ul>
-                        <li>поддержка и развитие серверной инфраструктуры</li>
-                        <li>внедрение практик devops</li>
-                        <li>создание окружений для разработки/тестирования/продакшена</li>
-                        <li>мониторинг систем</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="vacancies-col">
-                  <div class="vacancies-col__head">
-                    <h4>Devops инженер</h4>
-                    <a href="#" class="links">
-                      <svg class="svg-icon">
-                        <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-                      </svg>
-                    </a>
-                  </div>
-                  <div class="vacancies-col__body">
-                    <div class="box-text">
-                      <ul>
-                        <li>поддержка и развитие серверной инфраструктуры</li>
-                        <li>внедрение практик devops</li>
-                        <li>создание окружений для разработки/тестирования/продакшена</li>
-                        <li>мониторинг систем</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="vacancies-col">
-                  <div class="vacancies-col__head">
-                    <h4>Devops инженер</h4>
-                    <a href="#" class="links">
-                      <svg class="svg-icon">
-                        <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-                      </svg>
-                    </a>
-                  </div>
-                  <div class="vacancies-col__body">
-                    <div class="box-text">
-                      <ul>
-                        <li>поддержка и развитие серверной инфраструктуры</li>
-                        <li>внедрение практик devops</li>
-                        <li>создание окружений для разработки/тестирования/продакшена</li>
-                        <li>мониторинг систем</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="vacancies-col">
-                  <div class="vacancies-col__head">
-                    <h4>Devops инженер</h4>
-                    <a href="#" class="links">
-                      <svg class="svg-icon">
-                        <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-                      </svg>
-                    </a>
-                  </div>
-                  <div class="vacancies-col__body">
-                    <div class="box-text">
-                      <ul>
-                        <li>поддержка и развитие серверной инфраструктуры</li>
-                        <li>внедрение практик devops</li>
-                        <li>создание окружений для разработки/тестирования/продакшена</li>
-                        <li>мониторинг систем</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="vacancies-col">
-                  <div class="vacancies-col__head">
-                    <h4>Devops инженер</h4>
-                    <a href="#" class="links">
-                      <svg class="svg-icon">
-                        <use xlink:href="img/sprite.svg#arrow-link-top"></use>
-                      </svg>
-                    </a>
-                  </div>
-                  <div class="vacancies-col__body">
-                    <div class="box-text">
-                      <ul>
-                        <li>поддержка и развитие серверной инфраструктуры</li>
-                        <li>внедрение практик devops</li>
-                        <li>создание окружений для разработки/тестирования/продакшена</li>
-                        <li>мониторинг систем</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <a href="#" class="btn btn-border-grey btn-all-vacancies">Больше вакансий</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="callback-section summary-section bg-grey">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="callback-wrapper summary-wrapper">
-          <h2>Оставить резюме</h2>
-
-          <form method="post" class="form form-summary">
-            <div class="form-group">
-              <label>
-                <input type="text" placeholder="Имя" name="name">
-              </label>
-              <label>
-                <input type="text" placeholder="E-mail" name="mail" required>
-              </label>
-              <label>
-                <input type="text" placeholder="Телефон" name="phone" required>
-              </label>
-            </div>
-
-            <div class="form-group">
-              <label>
-                <textarea name="message" placeholder="Краткое описание"></textarea>
-              </label>
-
-              <div class="row-form">
-                <label class="label-file">
-                  <input type="file" class="inp-file" name="file">
-                  <span class="file-icon"><img src="img/file.svg" alt=""></span>
-                  <span class="file-text">Прикрепить файл</span>
-                </label>
-                <button type="submit" class="btn btn-white">Подписаться</button>
-              </div>
-            </div>
-
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="footer-top">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-2">
+        <div class="col-12 d-flex flex-wrap align-items-center">
           <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
-        </div>
+          <ul class="menu my-ul">
+            <li><a href="association.html">Ассоциация</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="it-company.html">IT-компаниям</a></li>
+            <li><a href="customers.html">Заказчикам</a></li>
+            <li><a href="work.html">Работа в IT</a></li>
+            <li><a href="events.html">Мероприятия</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
 
-        <div class="col-12 col-lg-10">
-          <div class="footer-wrapper">
-            <div class="footer-col">
-              <a href="association.html" class="footer-col__title">Ассоциация</a>
-              <ul class="footer-menu my-ul">
-                <li><a href="about.html">О нас</a></li>
-                <li><a href="#">Деятельность</a></li>
-                <li><a href="#">Правление</a></li>
-                <li><a href="#">Члены ассоциации</a></li>
-                <li><a href="#">Документация</a></li>
-              </ul>
-            </div>
-
-            <div class="footer-col">
-              <a href="it-company.html" class="footer-col__title">IT-компаниям</a>
-              <ul class="footer-menu my-ul">
-                <li><a href="#">Преимущества членства</a></li>
-                <li><a href="prices.html">Стоимость</a></li>
-                <li><a href="documents.html">Документы</a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-              </ul>
-            </div>
-
-            <div class="footer-col">
-              <a href="business.html" class="footer-col__title">Малому и среднему бизнесу</a>
-              <ul class="footer-menu my-ul">
-                <li><a href="#">Деятельность компании</a></li>
-                <li><a href="#">Примеры разработок и решений</a></li>
-                <li><a href="customers.html">Заказчики</a></li>
-              </ul>
-            </div>
-
-            <div class="footer-col">
-              <a href="work.html" class="footer-col__title">Работать в IT</a>
-              <ul class="footer-menu my-ul">
-                <li><a href="vacancy.html">Вакансии</a></li>
-                <li><a href="#">Деятельность компаний <br>и трудовые условия</a></li>
-                <li><a href="#">Преимущества работы <br>в компаниях-членах <br>Ассоциации</a></li>
-              </ul>
-            </div>
-
-            <div class="footer-col">
-              <a href="events.html" class="footer-col__title">Мероприятия</a>
-              <a href="contacts.html" class="footer-col__title">Контакты</a>
-            </div>
+          <div class="btn-burger">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="footer-bottom">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 d-flex align-items-center flex-wrap">
-          <div class="footer-box address-box">
-            <div class="footer-box__icon">
-              <svg class="svg-icon">
-                <use xlink:href="img/sprite.svg#location"></use>
-              </svg>
-            </div>
-            <div class="footer-box__text">440000, г. Пенза, ул. Суворова, 66, 6 этаж</div>
-          </div>
-          <a href="mailto:org@secon.ru" class="footer-box mail-box">
-            <span class="footer-box__icon"><svg class="svg-icon"><use
-                xlink:href="img/sprite.svg#mail"></use></svg></span>
-            <span class="footer-box__text">org@secon.ru</span>
-          </a>
-          <div class="footer-box schedule-box">
-            <div class="footer-box__icon">
-              <svg class="svg-icon">
-                <use xlink:href="img/sprite.svg#clock"></use>
-              </svg>
-            </div>
-            <div class="footer-box__text">с 9:00 до 17:00</div>
-          </div>
           <ul class="list-social my-ul">
             <li><a href="#">
               <svg class="svg-icon">
@@ -869,12 +111,780 @@
               </svg>
             </a></li>
           </ul>
+          <a href="#" class="btn btn-accent" data-toggle="modal" data-target="#callModal">Вступить</a>
         </div>
       </div>
     </div>
-  </div>
+  </header>
 
-</footer>
+  <section class="bg-grey work-home page-section">
+    <div class="work-home-navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex flex-wrap align-items-center justify-content-center">
+            <a href="#career" class="work-home-navigation__links">Профориентация</a>
+            <div class="work-home-navigation__arrow">
+              <svg class="svg-icon">
+                <use xlink:href="img/sprite.svg#right"></use>
+              </svg>
+            </div>
+            <a href="#education" class="work-home-navigation__links">Обучение</a>
+            <div class="work-home-navigation__arrow">
+              <svg class="svg-icon">
+                <use xlink:href="img/sprite.svg#right"></use>
+              </svg>
+            </div>
+            <a href="#internship" class="work-home-navigation__links">Стажировка</a>
+            <div class="work-home-navigation__arrow">
+              <svg class="svg-icon">
+                <use xlink:href="img/sprite.svg#right"></use>
+              </svg>
+            </div>
+            <a href="#employment" class="work-home-navigation__links">Трудоустройство</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb" class="breadcrumb-nav color-grey">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Работа в IT</li>
+            </ol>
+          </nav>
+        </div>
+
+        <div class="col-12">
+          <h1>Узнай, какая IT-профессия подходит именно тебе</h1>
+
+          <div class="quiz"><img src="img/quiz.png" alt=""></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="profession bg-accent">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-10">
+          <div class="section-anchor" id="career">
+            <h2>Профессии в IT</h2>
+            <div class="box-text">
+              <p>Информационные технологии уже не первое десятилетие возглавляют рейтинг самых
+                востребованных отраслей. Вместе с этим в IT сфере появляется множество новых профессий</p>
+            </div>
+
+            <div class="filter-wrapper">
+              <a href="#" class="filter-item active">Аналитик</a>
+              <a href="#" class="filter-item">Дизайнер</a>
+              <a href="#" class="filter-item">Разработчики iOS</a>
+              <a href="#" class="filter-item">ERP-программист</a>
+              <a href="#" class="filter-item">Администратор базы данных</a>
+              <a href="#" class="filter-item">Администратор сайта</a>
+              <a href="#" class="filter-item">Frontend разработчик</a>
+              <a href="#" class="filter-item">Аналитик</a>
+              <a href="#" class="filter-item">Дизайнер</a>
+              <a href="#" class="filter-item">Разработчики iOS</a>
+              <a href="#" class="filter-item">ERP-программист</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="courses section-anchor" id="education">
+            <h3>Топ курсов</h3>
+
+            <div class="box-text">
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+                in
+                hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                vero
+                eros et accumsan et iusto odio dignissim qui blandit </p>
+            </div>
+
+            <div class="table-responsive">
+              <table class="table">
+                <thead>
+                <tr>
+                  <th><p>Скидка</p></th>
+                  <th><p>Направление</p></th>
+                  <th><p>Место <br>реализации</p></th>
+                  <th><p>Сроки <br>
+                    обучения</p></th>
+                  <th><p>Уровень вступительных <br>знаний</p></th>
+                  <th><p>Формат <br>
+                    обучения</p></th>
+                  <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td>
+                    <div class="percent">10%</div>
+                  </td>
+                  <td><p><strong>UX/UI-дизайнер</strong></p></td>
+                  <td><p>ПГУ</p></td>
+                  <td>
+                    <p><strong>2 месяца </strong></p>
+                  </td>
+                  <td>
+                    <ul class="list-level my-ul">
+                      <li class="list-level__item active"></li>
+                      <li class="list-level__item"></li>
+                      <li class="list-level__item"></li>
+                      <li class="list-level__item"></li>
+                      <li class="list-level__item"></li>
+                    </ul>
+                  </td>
+                  <td>
+                    <p>Онлайн</p>
+                  </td>
+                  <td>
+                    <a href="#" class="btn btn-border-grey">Подробнее</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="percent">10%</div>
+                  </td>
+                  <td><p><strong>Data Scientist</strong></p></td>
+                  <td><p>Неотология</p></td>
+                  <td>
+                    <p><strong>2 года</strong></p>
+                  </td>
+                  <td>
+                    <ul class="list-level my-ul">
+                      <li class="list-level__item active"></li>
+                      <li class="list-level__item active"></li>
+                      <li class="list-level__item"></li>
+                      <li class="list-level__item"></li>
+                      <li class="list-level__item"></li>
+                    </ul>
+                  </td>
+                  <td>
+                    <p>Онлайн</p>
+                  </td>
+                  <td>
+                    <a href="#" class="btn btn-border-grey">Подробнее</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="percent">10%</div>
+                  </td>
+                  <td><p><strong>Аналитик BI</strong></p></td>
+                  <td><p>МГУ</p></td>
+                  <td>
+                    <p><strong>4 месяца</strong></p>
+                  </td>
+                  <td>
+                    <ul class="list-level my-ul">
+                      <li class="list-level__item active"></li>
+                      <li class="list-level__item active"></li>
+                      <li class="list-level__item active"></li>
+                      <li class="list-level__item"></li>
+                      <li class="list-level__item"></li>
+                    </ul>
+                  </td>
+                  <td>
+                    <p>Онлайн</p>
+                  </td>
+                  <td>
+                    <a href="#" class="btn btn-border-grey">Подробнее</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="percent">10%</div>
+                  </td>
+                  <td><p><strong>ERP-программист</strong></p></td>
+                  <td><p>Setters</p></td>
+                  <td>
+                    <p><strong>6 месяцев </strong></p>
+                  </td>
+                  <td>
+                    <ul class="list-level my-ul">
+                      <li class="list-level__item active"></li>
+                      <li class="list-level__item"></li>
+                      <li class="list-level__item"></li>
+                      <li class="list-level__item"></li>
+                      <li class="list-level__item"></li>
+                    </ul>
+                  </td>
+                  <td>
+                    <p>Онлайн</p>
+                  </td>
+                  <td>
+                    <a href="#" class="btn btn-border-grey">Подробнее</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="percent">10%</div>
+                  </td>
+                  <td><p><strong>Администратор <br>
+                    базы данных</strong></p></td>
+                  <td><p>Неотология</p></td>
+                  <td>
+                    <p><strong>1 год </strong></p>
+                  </td>
+                  <td>
+                    <ul class="list-level my-ul">
+                      <li class="list-level__item active"></li>
+                      <li class="list-level__item active"></li>
+                      <li class="list-level__item"></li>
+                      <li class="list-level__item"></li>
+                      <li class="list-level__item"></li>
+                    </ul>
+                  </td>
+                  <td>
+                    <p>Онлайн</p>
+                  </td>
+                  <td>
+                    <a href="#" class="btn btn-border-grey">Подробнее</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="percent">10%</div>
+                  </td>
+                  <td><p><strong>Frontend <br>
+                    разработчик</strong></p></td>
+                  <td><p>Setters</p></td>
+                  <td>
+                    <p><strong>3,5 месяца </strong></p>
+                  </td>
+                  <td>
+                    <ul class="list-level my-ul">
+                      <li class="list-level__item active"></li>
+                      <li class="list-level__item"></li>
+                      <li class="list-level__item"></li>
+                      <li class="list-level__item"></li>
+                      <li class="list-level__item"></li>
+                    </ul>
+                  </td>
+                  <td>
+                    <p>Онлайн</p>
+                  </td>
+                  <td>
+                    <a href="#" class="btn btn-border-grey">Подробнее</a>
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="internships section-anchor" id="internship">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-10">
+          <h2>Стажировки</h2>
+          <div class="box-text">
+            <p>Информационные технологии уже не первое десятилетие возглавляют рейтинг самых
+              востребованных отраслей. Вместе с этим в IT сфере появляется множество новых профессий</p>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="internships-wrapper">
+            <div class="internships-box internships-box1 bg-white">
+              <div class="internships-box__logo"><img src="img/it-lab.png" alt=""></div>
+              <h4>Заголовок</h4>
+              <div class="box-text"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p></div>
+              <a href="#" class="btn btn-border-grey">Подробнее</a>
+            </div>
+            <div class="internships-box internships-box2 bg-black">
+              <img src="img/bg-internships1.png" alt="" class="internships-box__bg">
+              <div class="internships-box__logo"><img src="img/igrohub.png" alt=""></div>
+              <h4>Заголовок</h4>
+              <div class="box-text"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p></div>
+              <a href="#" class="btn btn-border-white">Подробнее</a>
+            </div>
+            <div class="internships-box internships-box3 bg-black">
+              <div class="internships-box__logo"><img src="img/tortuga-white.svg" alt=""></div>
+              <h4>Заголовок</h4>
+              <div class="box-text"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p></div>
+              <a href="#" class="btn btn-border-white">Подробнее</a>
+            </div>
+            <div class="internships-box internships-box4 bg-blue">
+              <div class="internships-box__logo"><img src="img/software.png" alt=""></div>
+              <h4>Заголовок</h4>
+              <div class="box-text"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p></div>
+              <a href="#" class="btn btn-border">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="vacancies-company section-anchor" id="employment">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-10">
+          <h2>Вакансии компаний Ассоциации</h2>
+          <div class="box-text">
+            <p>Информационные технологии уже не первое десятилетие возглавляют рейтинг самых
+              востребованных отраслей. Вместе с этим в IT сфере появляется множество новых профессий</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="vacancies-company-wrapper bg-grey">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="filter-wrapper">
+              <a href="#" class="filter-item filter-item-black active">CodeInside</a>
+              <a href="#" class="filter-item filter-item-black">Bit games</a>
+              <a href="#" class="filter-item filter-item-black">Разработчики iOS</a>
+              <a href="#" class="filter-item filter-item-black">Tortuga</a>
+              <a href="#" class="filter-item filter-item-black">OKDESK</a>
+              <a href="#" class="filter-item filter-item-black">Моё дело</a>
+              <a href="#" class="filter-item filter-item-black">XOCUS</a>
+              <a href="#" class="filter-item filter-item-black">Росоператор</a>
+              <a href="#" class="filter-item filter-item-black">Reliable systems</a>
+              <a href="#" class="filter-item filter-item-black">СофтИнвент</a>
+              <a href="#" class="filter-item filter-item-black">VENTRA</a>
+              <a href="#" class="filter-item filter-item-black">Open Solutions</a>
+            </div>
+
+            <div class="vacancies-company-details">
+              <div class="vacancies-company-item">
+                <div class="association-section-home__wrapper">
+                  <div class="logo-company"><img src="img/tortuga.svg" alt=""></div>
+                  <div class="box-text">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                      ut
+                      laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                      tation
+                      ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+
+                    <a href="#" class="btn btn-border-grey">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="vacancies-company-list bg-grey">
+                <div class="mCustomScrollbar-wrap">
+                  <div class="vacancies-col">
+                    <div class="vacancies-col__head">
+                      <h4>Devops инженер</h4>
+                      <a href="#" class="links">
+                        <svg class="svg-icon">
+                          <use xlink:href="img/sprite.svg#arrow-link-top"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="vacancies-col__body">
+                      <div class="box-text">
+                        <ul>
+                          <li>поддержка и развитие серверной инфраструктуры</li>
+                          <li>внедрение практик devops</li>
+                          <li>создание окружений для разработки/тестирования/продакшена</li>
+                          <li>мониторинг систем</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vacancies-col">
+                    <div class="vacancies-col__head">
+                      <h4>Devops инженер</h4>
+                      <a href="#" class="links">
+                        <svg class="svg-icon">
+                          <use xlink:href="img/sprite.svg#arrow-link-top"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="vacancies-col__body">
+                      <div class="box-text">
+                        <ul>
+                          <li>поддержка и развитие серверной инфраструктуры</li>
+                          <li>внедрение практик devops</li>
+                          <li>создание окружений для разработки/тестирования/продакшена</li>
+                          <li>мониторинг систем</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vacancies-col">
+                    <div class="vacancies-col__head">
+                      <h4>Devops инженер</h4>
+                      <a href="#" class="links">
+                        <svg class="svg-icon">
+                          <use xlink:href="img/sprite.svg#arrow-link-top"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="vacancies-col__body">
+                      <div class="box-text">
+                        <ul>
+                          <li>поддержка и развитие серверной инфраструктуры</li>
+                          <li>внедрение практик devops</li>
+                          <li>создание окружений для разработки/тестирования/продакшена</li>
+                          <li>мониторинг систем</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vacancies-col">
+                    <div class="vacancies-col__head">
+                      <h4>Devops инженер</h4>
+                      <a href="#" class="links">
+                        <svg class="svg-icon">
+                          <use xlink:href="img/sprite.svg#arrow-link-top"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="vacancies-col__body">
+                      <div class="box-text">
+                        <ul>
+                          <li>поддержка и развитие серверной инфраструктуры</li>
+                          <li>внедрение практик devops</li>
+                          <li>создание окружений для разработки/тестирования/продакшена</li>
+                          <li>мониторинг систем</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vacancies-col">
+                    <div class="vacancies-col__head">
+                      <h4>Devops инженер</h4>
+                      <a href="#" class="links">
+                        <svg class="svg-icon">
+                          <use xlink:href="img/sprite.svg#arrow-link-top"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="vacancies-col__body">
+                      <div class="box-text">
+                        <ul>
+                          <li>поддержка и развитие серверной инфраструктуры</li>
+                          <li>внедрение практик devops</li>
+                          <li>создание окружений для разработки/тестирования/продакшена</li>
+                          <li>мониторинг систем</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vacancies-col">
+                    <div class="vacancies-col__head">
+                      <h4>Devops инженер</h4>
+                      <a href="#" class="links">
+                        <svg class="svg-icon">
+                          <use xlink:href="img/sprite.svg#arrow-link-top"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="vacancies-col__body">
+                      <div class="box-text">
+                        <ul>
+                          <li>поддержка и развитие серверной инфраструктуры</li>
+                          <li>внедрение практик devops</li>
+                          <li>создание окружений для разработки/тестирования/продакшена</li>
+                          <li>мониторинг систем</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vacancies-col">
+                    <div class="vacancies-col__head">
+                      <h4>Devops инженер</h4>
+                      <a href="#" class="links">
+                        <svg class="svg-icon">
+                          <use xlink:href="img/sprite.svg#arrow-link-top"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="vacancies-col__body">
+                      <div class="box-text">
+                        <ul>
+                          <li>поддержка и развитие серверной инфраструктуры</li>
+                          <li>внедрение практик devops</li>
+                          <li>создание окружений для разработки/тестирования/продакшена</li>
+                          <li>мониторинг систем</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vacancies-col">
+                    <div class="vacancies-col__head">
+                      <h4>Devops инженер</h4>
+                      <a href="#" class="links">
+                        <svg class="svg-icon">
+                          <use xlink:href="img/sprite.svg#arrow-link-top"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="vacancies-col__body">
+                      <div class="box-text">
+                        <ul>
+                          <li>поддержка и развитие серверной инфраструктуры</li>
+                          <li>внедрение практик devops</li>
+                          <li>создание окружений для разработки/тестирования/продакшена</li>
+                          <li>мониторинг систем</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vacancies-col">
+                    <div class="vacancies-col__head">
+                      <h4>Devops инженер</h4>
+                      <a href="#" class="links">
+                        <svg class="svg-icon">
+                          <use xlink:href="img/sprite.svg#arrow-link-top"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="vacancies-col__body">
+                      <div class="box-text">
+                        <ul>
+                          <li>поддержка и развитие серверной инфраструктуры</li>
+                          <li>внедрение практик devops</li>
+                          <li>создание окружений для разработки/тестирования/продакшена</li>
+                          <li>мониторинг систем</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vacancies-col">
+                    <div class="vacancies-col__head">
+                      <h4>Devops инженер</h4>
+                      <a href="#" class="links">
+                        <svg class="svg-icon">
+                          <use xlink:href="img/sprite.svg#arrow-link-top"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="vacancies-col__body">
+                      <div class="box-text">
+                        <ul>
+                          <li>поддержка и развитие серверной инфраструктуры</li>
+                          <li>внедрение практик devops</li>
+                          <li>создание окружений для разработки/тестирования/продакшена</li>
+                          <li>мониторинг систем</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vacancies-col">
+                    <div class="vacancies-col__head">
+                      <h4>Devops инженер</h4>
+                      <a href="#" class="links">
+                        <svg class="svg-icon">
+                          <use xlink:href="img/sprite.svg#arrow-link-top"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="vacancies-col__body">
+                      <div class="box-text">
+                        <ul>
+                          <li>поддержка и развитие серверной инфраструктуры</li>
+                          <li>внедрение практик devops</li>
+                          <li>создание окружений для разработки/тестирования/продакшена</li>
+                          <li>мониторинг систем</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vacancies-col">
+                    <div class="vacancies-col__head">
+                      <h4>Devops инженер</h4>
+                      <a href="#" class="links">
+                        <svg class="svg-icon">
+                          <use xlink:href="img/sprite.svg#arrow-link-top"></use>
+                        </svg>
+                      </a>
+                    </div>
+                    <div class="vacancies-col__body">
+                      <div class="box-text">
+                        <ul>
+                          <li>поддержка и развитие серверной инфраструктуры</li>
+                          <li>внедрение практик devops</li>
+                          <li>создание окружений для разработки/тестирования/продакшена</li>
+                          <li>мониторинг систем</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <a href="#" class="btn btn-border-grey btn-all-vacancies">Больше вакансий</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="callback-section summary-section bg-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="callback-wrapper summary-wrapper">
+            <h2>Оставить резюме</h2>
+
+            <form method="post" class="form form-summary">
+              <div class="form-group">
+                <label>
+                  <input type="text" placeholder="Имя" name="name">
+                </label>
+                <label>
+                  <input type="text" placeholder="E-mail" name="mail" required>
+                </label>
+                <label>
+                  <input type="text" placeholder="Телефон" name="phone" required>
+                </label>
+              </div>
+
+              <div class="form-group">
+                <label>
+                  <textarea name="message" placeholder="Краткое описание"></textarea>
+                </label>
+
+                <div class="row-form">
+                  <label class="label-file">
+                    <input type="file" class="inp-file" name="file">
+                    <span class="file-icon"><img src="img/file.svg" alt=""></span>
+                    <span class="file-text">Прикрепить файл</span>
+                  </label>
+                  <button type="submit" class="btn btn-white">Подписаться</button>
+                </div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-2">
+            <a href="index.html" class="logo"><img src="img/logo.svg" alt=""></a>
+          </div>
+
+          <div class="col-12 col-lg-10">
+            <div class="footer-wrapper">
+              <div class="footer-col">
+                <a href="association.html" class="footer-col__title">Ассоциация</a>
+                <ul class="footer-menu my-ul">
+                  <li><a href="about.html">О нас</a></li>
+                  <li><a href="#">Деятельность</a></li>
+                  <li><a href="#">Правление</a></li>
+                  <li><a href="#">Члены ассоциации</a></li>
+                  <li><a href="#">Документация</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-col">
+                <a href="it-company.html" class="footer-col__title">IT-компаниям</a>
+                <ul class="footer-menu my-ul">
+                  <li><a href="#">Преимущества членства</a></li>
+                  <li><a href="prices.html">Стоимость</a></li>
+                  <li><a href="documents.html">Документы</a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                </ul>
+              </div>
+
+              <div class="footer-col">
+                <a href="business.html" class="footer-col__title">Малому и среднему бизнесу</a>
+                <ul class="footer-menu my-ul">
+                  <li><a href="#">Деятельность компании</a></li>
+                  <li><a href="#">Примеры разработок и решений</a></li>
+                  <li><a href="customers.html">Заказчики</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-col">
+                <a href="work.html" class="footer-col__title">Работать в IT</a>
+                <ul class="footer-menu my-ul">
+                  <li><a href="vacancy.html">Вакансии</a></li>
+                  <li><a href="#">Деятельность компаний <br>и трудовые условия</a></li>
+                  <li><a href="#">Преимущества работы <br>в компаниях-членах <br>Ассоциации</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-col">
+                <a href="events.html" class="footer-col__title">Мероприятия</a>
+                <a href="contacts.html" class="footer-col__title">Контакты</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex align-items-center flex-wrap">
+            <div class="footer-box address-box">
+              <div class="footer-box__icon">
+                <svg class="svg-icon">
+                  <use xlink:href="img/sprite.svg#location"></use>
+                </svg>
+              </div>
+              <div class="footer-box__text">440000, г. Пенза, ул. Суворова, 66, 6 этаж</div>
+            </div>
+            <a href="mailto:org@secon.ru" class="footer-box mail-box">
+            <span class="footer-box__icon"><svg class="svg-icon"><use
+                xlink:href="img/sprite.svg#mail"></use></svg></span>
+              <span class="footer-box__text">org@secon.ru</span>
+            </a>
+            <div class="footer-box schedule-box">
+              <div class="footer-box__icon">
+                <svg class="svg-icon">
+                  <use xlink:href="img/sprite.svg#clock"></use>
+                </svg>
+              </div>
+              <div class="footer-box__text">с 9:00 до 17:00</div>
+            </div>
+            <ul class="list-social my-ul">
+              <li><a href="#">
+                <svg class="svg-icon">
+                  <use xlink:href="img/sprite.svg#tg"></use>
+                </svg>
+              </a></li>
+              <li><a href="#">
+                <svg class="svg-icon">
+                  <use xlink:href="img/sprite.svg#vk"></use>
+                </svg>
+              </a></li>
+              <li><a href="#">
+                <svg class="svg-icon">
+                  <use xlink:href="img/sprite.svg#youtube"></use>
+                </svg>
+              </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+</div>
 
 <!-- Модальное окно -->
 <div class="modal fade" id="callModal" tabindex="-1" aria-hidden="true">
@@ -939,7 +949,10 @@
         integrity="sha512-d4KkQohk+HswGs6A1d6Gak6Bb9rMWtxjOa0IiY49Q3TeFd5xAzjWXDCBW9RS7m86FQ4RzM2BdHmdJnnKRYknxw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js" integrity="sha512-2hIlk2fL+NNHkULe9gGdma/T5vSYk80U5tvAFSy3dGEl8XD4h2i6frQvHv5B+bm/Itmi8nJ6krAcj5FWFcBGig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"
+    integrity="sha512-2hIlk2fL+NNHkULe9gGdma/T5vSYk80U5tvAFSy3dGEl8XD4h2i6frQvHv5B+bm/Itmi8nJ6krAcj5FWFcBGig=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="js/common.js"></script>
 
 </body>

@@ -474,3 +474,8 @@ h2 {
 
 .form-group {
   margin: 0; }
+
+.wrapper {
+  padding: 136px 0 0;
+  width: 100%;
+  height: 100%; }

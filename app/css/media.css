@@ -790,7 +790,9 @@
   .vacancies-col {
     width: 100%;
     margin: 0 0 30px;
-    max-width: 100%; } }
+    max-width: 100%; }
+  .wrapper {
+    padding: 90px 0 0; } }
 
 @media only screen and (max-width: 576px) {
   header .list-social {
@@ -950,7 +952,9 @@
     font-size: 18px; }
   .summary-wrapper:before {
     width: 250px;
-    height: 200px; } }
+    height: 200px; }
+  .wrapper {
+    padding: 85px 0 0; } }
 
 @media only screen and (max-width: 480px) {
   .home-slider-item__img:before {
