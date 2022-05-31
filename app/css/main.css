@@ -216,7 +216,9 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 100%;
-  height: auto; }
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 /*==========  section video-section end  ==========*/
 /*==========  section statistics ==========*/
