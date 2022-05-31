@@ -161,6 +161,7 @@
 
 
 .datepicker
+  font-family: $default-font
   .ui-datepicker
     padding: 0
   .ui-widget.ui-widget-content
@@ -169,7 +170,72 @@
   .ui-datepicker
     width: 100%
   .ui-datepicker-header
-    display: none
+    //display: none
+    border: none
+      radius: 0
+    background: transparent
+    font-family: $default-font
+    padding: 0
+    display: flex
+    align-items: center
+    flex-wrap: wrap
+    margin: 0 0 10px
+
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span
+  display: none
+  
+
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next
+  position: relative
+  width: 18px
+  height: 18px
+  display: flex
+  align-items: center
+  justify-content: center
+  top: 0
+  right: 0
+  left: 0
+  opacity: 1
+  border: none
+    radius: 0
+  cursor: pointer
+  background: url("../img/arrow-right.svg") no-repeat center
+    size: 100%
+
+.ui-datepicker .ui-datepicker-prev
+  transform: rotate(180deg)
+
+.ui-datepicker .ui-datepicker-next
+  order: 1
+
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year
+  width: auto
+  padding: 0 20px 0 0
+  height: auto
+  border: none
+  margin: 0
+  font-size: 30px
+  font-weight: bold
+  color: $accent
+  font-family: $default-font
+  background: url("../img/arrow-bottom-blue.svg") no-repeat right center
+    size: 15px
+  cursor: pointer
+  text-align: center
+  option
+    font-size: 20px
+
+.ui-datepicker select.ui-datepicker-month
+  margin: 0 30px 0 0
+
+.ui-datepicker .ui-datepicker-title
+  margin: 0 auto
+  padding: 5px 30px
+  border:
+    left: 2px solid #324C88
+    right: 2px solid #324C88
+
+
 
 .ui-datepicker table
   margin: 0
@@ -192,6 +258,7 @@
     height: 75px
     padding: 0
     border: 0.5px solid #7D7D7D
+    vertical-align: middle
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active
   width: 100%
