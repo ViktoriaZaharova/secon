@@ -127,7 +127,11 @@
   .datepicker-years-item.active, .datepicker-months-item.active {
     font-size: 30px; }
   .courses {
-    padding: 40px; } }
+    padding: 40px; }
+  .footer-col {
+    max-width: 260px; }
+  .footer-col__title {
+    font-size: 18px; } }
 
 @media only screen and (max-width: 1300px) {
   .btn-burger {

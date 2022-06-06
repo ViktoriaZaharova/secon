@@ -613,7 +613,7 @@
   margin: 323px 0 0; }
 
 .business-section {
-  background: url("../img/bg-business.jpg") no-repeat center;
+  background: url("/wp-content/themes/custom/img/bg-business.jpg") no-repeat center;
   background-size: cover;
   padding: 0 0 206px; }
 
