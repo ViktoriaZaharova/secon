@@ -42,9 +42,11 @@
   .contacts-section-home
     h1
       font-size: 40px
+
     .btn
       height: 60px
       font-size: 20px
+
     .breadcrumb-nav
       margin: 40px 0
 
@@ -55,12 +57,18 @@
   .vacancies-col
     max-width: 47%
 
-  .mCSB_inside>.mCSB_container
+  .mCSB_inside > .mCSB_container
     padding-right: 50px
 
   .calendar-event-box .btn
     padding: 15px
     font-size: 22px
+
+  .footer-col
+    margin: 0 0 30px
+
+  .footer-top
+    padding: 240px 0 40px
 
 @media only screen and (max-width: 1400px)
   .logo
@@ -80,17 +88,16 @@
     font-size: 22px
     line-height: normal
 
-  .video-section
-    h2
-      font-size: 90px
-      line-height: normal
-
+  .video-section h2
+    font-size: 90px
+    line-height: normal
 
   .statistics-wrapper
     padding: 20px 0
 
   .statistics-item
     padding: 20px
+
     h3
       font-size: 50px
 
@@ -114,6 +121,7 @@
 
   .form-callback
     padding-left: 20px
+
     button
       font-size: 20px
 
@@ -123,11 +131,13 @@
 
   .documents-box
     padding: 30px
-    &__icon
-      margin: 0 15px 0 0
-    &__name
-      font-size: 24px
-      line-height: normal
+
+  .documents-box__icon
+    margin: 0 15px 0 0
+
+  .documents-box__name
+    font-size: 24px
+    line-height: normal
 
   .events-box__body
     padding: 30px
@@ -141,11 +151,12 @@
   .information-association-box .text-right-box
     padding: 10px 0 10px 20px
 
-  .callback-section-v2 .callback-wrapper
-    padding: 40px 50px
-
   .callback-section-v2
+    .callback-wrapper
+      padding: 40px 50px
+
     margin: 0 0 -140px
+
     &:before
       width: 400px
       height: 300px
@@ -167,10 +178,10 @@
   .courses
     padding: 40px
 
-
-
 @media only screen and (max-width: 1300px)
   .btn-burger
+    display: -webkit-box
+    display: -ms-flexbox
     display: flex
     margin: 0 auto
 
@@ -181,13 +192,11 @@
     li
       margin: 0 26px 0 0
 
-  header
-    .menu
-      li
-        display: none
+  header .menu li
+    display: none
 
-        &:first-child, &:nth-child(3)
-          display: block
+    &:first-child, &:nth-child(3)
+      display: block
 
   .p-130
     padding: 90px 0
@@ -197,6 +206,7 @@
 
   .goal
     padding: 70px 0 50px
+
     &:before
       width: 900px
       height: 800px
@@ -211,6 +221,7 @@
     h2
       padding: 0 0 20px
       margin: 0 0 20px
+
     .box-text
       font-size: 20px
       line-height: normal
@@ -220,6 +231,7 @@
 
   .contacts-section-home
     padding: 0 0 60px
+
     .governing-box
       max-width: 270px
 
@@ -247,7 +259,6 @@
   .internships-wrapper
     padding: 30px
 
-
 @media only screen and (max-width: 1200px)
   .home-slider-dots
     width: 100px
@@ -257,6 +268,7 @@
 
   .home-slider-title
     font-size: 40px
+
     br
       display: none
 
@@ -265,17 +277,20 @@
 
   .statistics-item
     font-size: 16px
+
     .box-text
       font-size: 16px
       line-height: normal
 
   .associations
     padding: 60px 0
+
     h2
       margin: 0 0 40px
 
   .associations-item
     padding: 30px 20px
+
     .btn
       font-size: 16px
 
@@ -299,6 +314,7 @@
 
   .callback-wrapper
     padding: 40px 50px
+
     h2
       font-size: 30px
       line-height: normal
@@ -328,39 +344,45 @@
 
   .events
     padding: 70px 0 50px
-    h2, .links
-      margin: 0 0 40px
-    .links
-      font-size: 24px
-      line-height: normal
-      margin-left: auto
 
-  .governing-box
-    &__body
-      padding: 15px 20px
-    &__name
-      padding: 0 0 15px
-      margin: 0 0 10px
+    h2
+      margin: 0 0 40px
+
+    .links
+      margin: 0 0 40px auto
       font-size: 24px
       line-height: normal
+
+  .governing-box__body
+    padding: 15px 20px
+
+  .governing-box__name
+    padding: 0 0 15px
+    margin: 0 0 10px
+    font-size: 24px
+    line-height: normal
 
   .governing
     margin: 40px 0 0
     padding: 30px 0 0
+
     h2
       margin: 0 0 40px
 
   .dates-company__box-right
     padding: 0
+
     .dates-company__box-head:before
       width: 100%
       left: 50%
-      transform: translate(-50%,0)
+      -webkit-transform: translate(-50%, 0)
+      transform: translate(-50%, 0)
 
   .dates-company__box-head
     font-size: 30px
     padding: 0 0 20px
     margin: 0 0 20px
+
     &:before
       right: auto
       left: 0
@@ -374,11 +396,13 @@
 
   .advantages
     padding: 60px 0 40px
+
     h2
       margin: 0 0 30px
 
   .advantages-box
     margin: 0 0 30px
+
     .box-text
       font-size: 20px
       line-height: normal
@@ -386,14 +410,16 @@
   .stages-inputs-item
     padding: 10px 20px
     font-size: 22px
-    &__number
-      width: 50px
-      height: 50px
-      min-width: 50px
-      font-size: 22px
+
+  .stages-inputs-item__number
+    width: 50px
+    height: 50px
+    min-width: 50px
+    font-size: 22px
 
   .stages-inputs
     padding: 60px 0
+
     &:before
       width: 600px
       height: 400px
@@ -401,10 +427,13 @@
 
   .differentiation
     padding: 60px 0 40px
+
     h2
       font-size: 34px
+
       br
         display: none
+
     .statistics-wrapper
       margin: 40px 0 0
 
@@ -412,20 +441,23 @@
     margin: 30px 0
 
   .contacts-section-home
-    h1
-      br
-        display: none
+    h1 br
+      display: none
+
     .box-text
       margin: 20px 0 30px
       max-width: none
+
     .governing-box
       margin: 30px 0 0
       max-width: calc(33.3% - 8px)
+
     .governing-wrapper
       justify-content: space-around
 
   .information-association-box
     padding: 20px
+
     h3
       width: 100%
       margin: 0 0 10px
@@ -464,9 +496,8 @@
   .calendar-event h3
     margin: 0 0 50px
 
-  .summary-wrapper
-    h2
-      margin: 0 0 30px
+  .summary-wrapper h2
+    margin: 0 0 30px
 
   .form-summary button
     max-width: 230px
@@ -480,9 +511,9 @@
     padding: 20px 0
     font-size: 22px
 
-
   .work-home
     padding: 0 0 70px
+
     h1
       font-size: 40px
 
@@ -494,21 +525,21 @@
 
   .profession
     padding: 60px 0 50px
+
     &:before
       width: 560px
       height: 480px
-      -webkit-background-size: contain
       background-size: contain
 
-  .courses
-    .box-text
-      font-size: 20px
+  .courses .box-text
+    font-size: 20px
 
-  .table tbody
-    font-size: 16px
+  .table
+    tbody
+      font-size: 16px
 
-  .table td
-    padding: 15px
+    td
+      padding: 15px
 
   .list-level li
     width: 18px
@@ -519,11 +550,10 @@
   .internships
     padding: 60px 0
 
-/* Medium Devices, Desktops */
+/* Medium Devices, Desktops
 @media only screen and (max-width: 992px)
-  header
-    .menu
-      display: none
+  header .menu
+    display: none
 
   .btn-burger
     margin: 0 20px 0 auto
@@ -532,12 +562,22 @@
     position: relative
     width: 100%
     padding: 20px 15px
+
     .slick-dots
+      -webkit-box-orient: horizontal
+      -webkit-box-direction: normal
+      -ms-flex-direction: row
       flex-direction: row
+      -webkit-box-align: center
+      -ms-flex-align: center
       align-items: center
+      -webkit-box-pack: center
+      -ms-flex-pack: center
       justify-content: center
+
       li
         margin: 0 20px 0 0
+
         &:last-child
           margin: 0
 
@@ -560,6 +600,7 @@
   .video-section
     h2
       font-size: 80px
+
     .box-text
       font-size: 20px
       line-height: normal
@@ -567,6 +608,7 @@
 
   .statistics
     padding: 30px 0
+
     h2
       margin: 0 0 30px
 
@@ -577,7 +619,10 @@
     left: -15px
 
   .statistics-item
+    -webkit-box-flex: 1
+    -ms-flex: auto
     flex: auto
+
     h3
       font-size: 40px
       line-height: normal
@@ -587,6 +632,7 @@
 
   .cases-slider
     margin: 30px 0 0
+
     .slick-dots
       margin: 30px 0 0
 
@@ -595,13 +641,14 @@
     height: 90px
 
   .partners-slider-nav
+    -webkit-box-pack: center
+    -ms-flex-pack: center
     justify-content: center
     margin: 0 0 20px
 
-  .partners
-    h2
-      margin: 0 auto 20px
-      text-align: center
+  .partners h2
+    margin: 0 auto 20px
+    text-align: center
 
   .form-callback
     width: 100%
@@ -615,15 +662,16 @@
 
   .footer-wrapper
     padding: 0
+    -webkit-box-pack: start
+    -ms-flex-pack: start
     justify-content: flex-start
 
   .footer-col
     width: 33.3%
     margin: 0 0 20px
 
-  footer
-    .logo
-      margin: 0 auto 20px
+  footer .logo
+    margin: 0 auto 20px
 
   .footer-top
     padding: 200px 0 30px
@@ -642,9 +690,11 @@
 
   .associations-item
     width: 33.3%
+
     h3
       font-size: 20px
       margin: 40px 0 20px
+
     .btn
       margin: 0 0 20px
       height: 50px
@@ -654,12 +704,12 @@
 
   .documents
     padding: 60px 0 40px
+
     h2
       margin: 0 0 30px
 
-  .goal
-    h2
-      margin: 0 0 30px
+  .goal h2
+    margin: 0 0 30px
 
   .goal-arrow
     margin: 0 0 30px auto
@@ -670,17 +720,19 @@
   .governing-wrapper
     justify-content: space-around
 
-  .section-info-company .image
-    min-width: auto
-    margin: 0
-    width: 100%
+  .section-info-company
+    .image
+      min-width: auto
+      margin: 0
+      width: 100%
 
-  .section-info-company .box-text
-    font-size: 20px
-    line-height: normal
+    .box-text
+      font-size: 20px
+      line-height: normal
 
   .about-content
     margin: 40px 0 0
+
     h2
       text-align: left
 
@@ -693,6 +745,7 @@
 
   .about-video
     padding-bottom: 56.25%
+
     img
       position: absolute
       left: 0
@@ -703,37 +756,50 @@
   .btn-play
     width: 100px
     height: 100px
+
     img
       max-width: 24px
       position: relative
 
-  .stages-inputs
-    h2
-      margin: 0 0 30px
+  .stages-inputs h2
+    margin: 0 0 30px
 
   .differentiation
     .btn
       margin: 20px 0 0
+
     .statistics-item
+      -webkit-box-flex: 0
+      -ms-flex: none
       flex: none
       width: 50%
+
       &:last-child
+        -webkit-box-align: start
+        -ms-flex-align: start
         align-items: flex-start
+
     .statistics-wrapper
+      -webkit-box-pack: start
+      -ms-flex-pack: start
       justify-content: flex-start
+      -webkit-box-align: start
+      -ms-flex-align: start
       align-items: flex-start
 
   .contacts-association
     padding: 50px 0
+
     &:before
       width: 600px
       height: 400px
-      -webkit-background-size: contain
       background-size: contain
+
     .btn
       margin: 0 0 30px auto
       font-size: 20px
       padding: 15px 25px
+
     h2
       margin: 0 0 30px
 
@@ -755,27 +821,38 @@
     margin: 30px auto 0
 
   .information-association-box__body
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
     flex-direction: column
+    -webkit-box-align: start
+    -ms-flex-align: start
     align-items: flex-start
 
-  .information-association-box .text-left-box, .information-association-box .text-right-box
-    width: 100%
-    border: none
+  .information-association-box
+    .text-left-box
+      width: 100%
+      border: none
 
-  .information-association-box .text-right-box
-    padding: 20px 0 0
+    .text-right-box
+      width: 100%
+      border: none
+      padding: 20px 0 0
 
   .association-info__img
     min-width: auto
     margin: 0 auto 30px
     float: none
     height: auto
+
     img
       height: auto
+      -o-object-fit: contain
       object-fit: contain
 
   .association-info__content
     padding: 0 0 30px
+
     .links-web
       width: 30px
       height: 30px
@@ -783,18 +860,19 @@
 
   .calendar
     padding: 50px 0
+
     h2
       margin: 0 0 30px
 
   .calendar-event
     margin: 40px 0 0
 
-  .form-summary
-    .form-group
+  .form-summary .form-group
+    width: 100%
+    max-width: 100%
+
+    &:first-child, &:last-child
       width: 100%
-      max-width: 100%
-      &:first-child, &:last-child
-        width: 100%
 
   .filter-item
     font-size: 18px
@@ -803,9 +881,9 @@
 
   .table
     font-size: 16px
-    thead
-      th
-        padding: 10px 15px
+
+    thead th
+      padding: 10px 15px
 
   .courses .box-text
     margin: 0 0 30px
@@ -814,19 +892,21 @@
   .internships-box
     padding: 30px 40px
     width: 100%
+
     h4
       font-size: 24px
       line-height: normal
+
     .box-text
       font-size: 16px
 
   .vacancies-company-details
     padding: 30px
 
-
 @media only screen and (max-width: 768px)
   header
     padding: 20px 0
+
     .btn
       margin: 0 0 0 20px
       height: 50px
@@ -839,9 +919,11 @@
   .home-slider-item__img
     max-width: 500px
     height: 100%
+
     img
       height: 100%
       width: 100%
+      -o-object-fit: cover
       object-fit: cover
 
   .home-wrapper
@@ -849,20 +931,25 @@
 
   .video-section
     padding: 120px 0 100px
+
     h2
       font-size: 50px
+
     .box-text
       font-size: 18px
+
     .links-web
       width: 30px
       height: 30px
 
   .statistics-item
     font-size: 14px
+
     h3
       font-size: 30px
 
   .statistics-wrapper
+    -ms-flex-wrap: nowrap
     flex-wrap: nowrap
 
   .associations-item
@@ -871,17 +958,17 @@
   .associations
     padding: 40px 0
 
-  .slick-dots
-    li
-      margin: 0 20px 0 0
+  .slick-dots li
+    margin: 0 20px 0 0
 
-  .footer-col
-    &__title
-      font-size: 18px
+  .footer-col__title
+    font-size: 18px
 
   .address-box
     max-width: none
     width: 100%
+    -webkit-box-pack: center
+    -ms-flex-pack: center
     justify-content: center
     margin: 0 0 10px
 
@@ -896,6 +983,7 @@
 
   .performers-item
     width: 50%
+
     h4
       font-size: 22px
       line-height: normal
@@ -912,10 +1000,14 @@
 
   .differentiation
     .statistics-wrapper
+      -ms-flex-wrap: wrap
       flex-wrap: wrap
+
     .statistics-item
       width: 100%
       border: none
+      -webkit-box-align: start
+      -ms-flex-align: start
       align-items: flex-start
 
   .contacts-section-home .governing-box
@@ -926,10 +1018,12 @@
 
   .contacts-association-box
     font-size: 18px
+
     &:before
       width: 100%
-    &__icon
-      margin: 0 15px 0 0
+
+  .contacts-association-box__icon
+    margin: 0 15px 0 0
 
   .map
     height: 300px
@@ -938,20 +1032,29 @@
     padding: 60px 0
 
   .datepicker-nav
+    -ms-flex-wrap: wrap
     flex-wrap: wrap
 
   .datepicker-months
     width: 100%
     margin: 0 auto 10px
+    -webkit-box-ordinal-group: 0
+    -ms-flex-order: -1
     order: -1
+    -webkit-box-pack: center
+    -ms-flex-pack: center
     justify-content: center
     border: none
     padding: 0
 
   .row-form
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
     flex-direction: column
+    -webkit-box-align: center
+    -ms-flex-align: center
     align-items: center
-
 
   .form-summary button
     max-width: 300px
@@ -966,15 +1069,19 @@
   .vacancies-company-item
     .association-section-home__wrapper
       margin: 0 0 30px
+      -ms-flex-wrap: wrap
       flex-wrap: wrap
+
       .box-text
         width: 100%
         padding: 0
         margin: 20px 0 0
         border: none
         font-size: 20px
+
         .btn
           margin: 20px auto 0
+
     .logo-company
       margin: 0 auto
 
@@ -983,7 +1090,6 @@
 
   .vacancies-company-list
     padding: 30px
-
 
   .vacancies-col
     width: 100%
@@ -997,12 +1103,12 @@
   header
     .list-social
       display: none
+
     .btn
       margin: 0
       padding: 12px 15px
       height: 45px
       font-size: 15px
-
 
   .logo
     max-width: 120px
@@ -1019,6 +1125,7 @@
 
   .home-slider-item__content
     max-width: 400px
+
     .box-text
       font-size: 18px
 
@@ -1027,6 +1134,7 @@
     font-size: 18px
 
   .statistics-wrapper
+    -ms-flex-wrap: wrap
     flex-wrap: wrap
 
   .statistics-item
@@ -1036,13 +1144,15 @@
 
   .associations-item
     width: 50%
-    &__description
-      margin-top: 20px
+
+  .associations-item__description
+    margin-top: 20px
 
   .form-callback
     button
       font-size: 18px
       width: 100%
+
     label
       width: 100%
 
@@ -1052,11 +1162,12 @@
   .footer-col
     width: 50%
 
-  footer
-    .list-social
-      width: 100%
-      justify-content: center
-      margin: 10px auto 0
+  footer .list-social
+    width: 100%
+    -webkit-box-pack: center
+    -ms-flex-pack: center
+    justify-content: center
+    margin: 10px auto 0
 
   .mail-box
     margin: 0 auto 0 0
@@ -1079,58 +1190,69 @@
   .performers .box-text
     margin: 0 0 30px
 
-  .documents-box
-    &__icon
-      width: 50px
-      height: 70px
-    .links-web
-      right: 20px
-      top: 20px
-      width: 18px
-      height: 18px
+  .documents-box__icon
+    width: 50px
+    height: 70px
+
+  .documents-box .links-web
+    right: 20px
+    top: 20px
+    width: 18px
+    height: 18px
 
   .events
     h2
       margin: 0 0 30px
+
     .links
       margin: 0 0 20px
       font-size: 20px
-    &__img
-      height: auto
+
+  .events__img
+    height: auto
 
   .governing-box
     width: 100%
-    &__photo
-      height: auto
 
-  .goal:before
-    width: 600px
-    height: 500px
+  .governing-box__photo
+    height: auto
 
   .goal
+    &:before
+      width: 600px
+      height: 500px
+
     h2
       width: 100%
 
   .goal-arrow
     margin: 0 0 15px
+    -webkit-transform: rotate(90deg)
     transform: rotate(90deg)
 
   .page-section
     padding: 0 0 40px
 
-  .differentiation .statistics-item h3
-    font-size: 40px
+  .differentiation .statistics-item
+    h3
+      font-size: 40px
 
-  .differentiation .statistics-item .box-text
-    font-size: 24px
+    .box-text
+      font-size: 24px
 
   .association-section-home__wrapper
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
     flex-direction: column
+    -webkit-box-align: start
+    -ms-flex-align: start
     align-items: flex-start
+
     .box-text
       padding: 20px 0 0
       border: none
-        top: 1px solid #000
+      border-top: 1px solid #000
       margin: 0
 
   .logo-company
@@ -1146,9 +1268,13 @@
   .datepicker-years
     width: 100%
     margin: 0 auto 10px
+    -webkit-box-pack: center
+    -ms-flex-pack: center
     justify-content: center
 
   .datepicker-nav .links
+    -webkit-box-pack: center
+    -ms-flex-pack: center
     justify-content: center
     margin: 0 auto
 
@@ -1158,20 +1284,22 @@
   .ui-datepicker-calendar thead
     font-size: 14px
 
-  .calendar-event-box .events-box__name
-    font-size: 24px
+  .calendar-event-box
+    .events-box__name
+      font-size: 24px
 
-  .calendar-event-box .events-box__body
-    padding: 20px
+    .events-box__body
+      padding: 20px
 
-  .calendar-event-box .btn
-    font-size: 16px
+    .btn
+      font-size: 16px
 
   .work-home-navigation
     display: none
 
   .work-home
     padding: 0 0 50px
+
     h1
       font-size: 30px
 
@@ -1183,6 +1311,7 @@
 
   .internships-box__bg
     height: 100%
+    width: -moz-fit-content
     width: fit-content
 
   .vacancies-col h4
@@ -1195,23 +1324,23 @@
   .wrapper
     padding: 85px 0 0
 
-
 @media only screen and (max-width: 480px)
   .home-slider-item__img:before
     width: 100%
 
-  .video-section
-    h2
-      font-size: 40px
+  .video-section h2
+    font-size: 40px
 
   .stages-inputs-item
     font-size: 18px
-    &__arrow
-      width: 24px
-      height: 24px
-      min-width: 24px
-    &__number
-      margin: 0 20px 0 0
+
+  .stages-inputs-item__arrow
+    width: 24px
+    height: 24px
+    min-width: 24px
+
+  .stages-inputs-item__number
+    margin: 0 20px 0 0
 
   .differentiation h2
     font-size: 28px
@@ -1220,25 +1349,29 @@
     max-width: none
     width: 100%
 
-  .ui-datepicker .ui-datepicker-title
-    padding: 5px 20px
+  .ui-datepicker
+    .ui-datepicker-title
+      padding: 5px 20px
 
+    select
+      &.ui-datepicker-month
+        margin: 0 15px 0 0
+        font-size: 20px
+        background-size: 10px
+        padding: 0 13px 0 0
 
-  .ui-datepicker select.ui-datepicker-month
-    margin: 0 15px 0 0
-
-
-  .ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year
-    font-size: 20px
-    -webkit-background-size: 10px
-    background-size: 10px
-    padding: 0 13px 0 0
+      &.ui-datepicker-year
+        font-size: 20px
+        background-size: 10px
+        padding: 0 13px 0 0
 
 @media only screen and (max-width: 420px)
   .associations-item
     width: 100%
+
     h3
       margin: 0 0 30px
+
     .btn
       margin: 0
 
@@ -1258,18 +1391,18 @@
   .cases-slider-item-img
     padding: 0
 
-  .associations-item
-    .btn
-      margin: 0 0 20px
+  .associations-item .btn
+    margin: 0 0 20px
 
-  .ui-datepicker-calendar td
-    height: 40px
+  .ui-datepicker-calendar
+    td
+      height: 40px
 
-  .ui-datepicker-calendar thead
-    font-size: 12px
+    thead
+      font-size: 12px
 
-  .ui-datepicker-calendar th
-    padding: 10px
+    th
+      padding: 10px
 
   .btn-all-vacancies
     margin: 30px auto 0
@@ -1288,10 +1421,16 @@
   .ui-datepicker .ui-datepicker-title
     width: 100%
     border: none
-      bottom: 1px solid $accent
+    border-bottom: 1px solid #324C88
     padding: 0 0 5px
+    -webkit-box-ordinal-group: 0
+    -ms-flex-order: -1
     order: -1
     margin: 0 0 10px
 
   .datepicker .ui-datepicker-header
+    -webkit-box-pack: justify
+    -ms-flex-pack: justify
     justify-content: space-between
+
+

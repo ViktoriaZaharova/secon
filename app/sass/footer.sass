@@ -1,116 +1,143 @@
 @import "vars"
 
 /*==========  footer  ==========*/
-footer
-  .list-social
-    margin: 0 0 0 auto
-    li
-      a
-        border-color: #fff
-        fill: #ffffff
-        &:hover
-          fill: $accent
-          background: $grey
+
+footer .list-social
+  margin: 0 0 0 auto
+
+  li a
+    border-color: #fff
+    fill: #ffffff
+
+    &:hover
+      fill: #324C88
+      background: #F0F0F0
 
 .footer-bottom
-  background: $accent
+  background: #324C88
   color: #fff
   padding: 20px 0
 
 .footer-top
-  background: $grey
+  background: #F0F0F0
   padding: 240px 0 70px
   color: #000000
 
 .footer-box
+  display: -webkit-box
+  display: -ms-flexbox
   display: flex
+  -webkit-box-align: center
+  -ms-flex-align: center
   align-items: center
   font-size: 22px
   color: #fff
+
   &:hover
     color: #fff
-  &__icon
-    fill: none
-    stroke: #fff
-    display: flex
-    align-items: center
-    justify-content: center
-    margin: 0 12px 0 0
 
-.address-box
-  .footer-box__icon
-    height: 30px
-    width: 23px
-    min-width: 23px
+.footer-box__icon
+  fill: none
+  stroke: #fff
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  margin: 0 12px 0 0
+
+.address-box .footer-box__icon
+  height: 30px
+  width: 23px
+  min-width: 23px
 
 .mail-box
   margin: 0 40px 0 80px
+
   .footer-box__icon
     width: 27px
     height: 15px
     min-width: 27px
 
-.schedule-box
-  .footer-box__icon
-    width: 24px
-    height: 24px
-    min-width: 24px
+.schedule-box .footer-box__icon
+  width: 24px
+  height: 24px
+  min-width: 24px
 
 .footer-wrapper
   width: 100%
+  display: -webkit-box
+  display: -ms-flexbox
   display: flex
+  -webkit-box-align: start
+  -ms-flex-align: start
   align-items: flex-start
+  -ms-flex-wrap: wrap
   flex-wrap: wrap
+  -webkit-box-pack: justify
+  -ms-flex-pack: justify
   justify-content: space-between
   padding-left: 48px
 
 .footer-col
   max-width: 322px
-  &__title
-    font-weight: bold
-    color: #000
-    margin: 0 0 20px
-    font-size: 22px
-    &:hover
-      color: $accent
+
+.footer-col__title
+  font-weight: bold
+  color: #000
+  margin: 0 0 20px
+  font-size: 22px
+
+  &:hover
+    color: #324C88
 
 .footer-menu
   font-size: 17px
-  li
-    a
-      color: #000
-      &:hover
-        color: $accent
+  max-width: 312px
+
+  li a
+    color: #000
+
+    &:hover
+      color: #324C88
+
 /*==========  footer end  ==========*/
-
-
-
 /*==========  modal  ==========*/
+
 .modal-dialog
   max-width: 500px
+
   .form-callback
     padding: 0
     margin: 0 auto
     width: 100%
     max-width: 300px
+
     label
       width: 100%
       margin: 0 auto 15px
+
     button
       margin: 0 auto
       width: 100%
 
 .modal-content
   border: none
-  background: $accent
+  background: #324C88
   color: #fff
   padding: 30px
 
 .modal-header
   padding: 0
   border: none
+  -ms-flex-wrap: wrap
   flex-wrap: wrap
   margin: 0 auto 30px
+
   .close
     position: absolute
     right: 15px
@@ -122,7 +149,8 @@ footer
     margin: 0
     padding: 0
     border: none
-      radius: 0
+    border-radius: 0
+
     &:before, &:after
       content: ''
       position: absolute
@@ -132,9 +160,13 @@ footer
       height: 100%
       width: 2px
       border-radius: 2px
+
     &:before
+      -webkit-transform: rotate(45deg)
       transform: rotate(45deg)
+
     &:after
+      -webkit-transform: rotate(135deg)
       transform: rotate(135deg)
 
 .modal-title
@@ -145,6 +177,5 @@ footer
 
 .modal-body
   padding: 0
-
 
 /*==========  modal end  ==========*/

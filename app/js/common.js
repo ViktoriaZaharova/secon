@@ -93,6 +93,10 @@ $('.btn-burger').on('click', function () {
     $('.mobile-menu').fadeToggle();
 });
 
+$('.btn-close-menu').on('click', function () {
+    $('.mobile-menu').fadeOut();
+});
+
 
 // mask phone
 $('[name="phone"]').mask('+7(999) 999 - 99 - 99');
@@ -118,16 +122,36 @@ $.datepicker.setDefaults(
         yearSuffix: '',
         changeMonth: true,
         changeYear: true,
+        yearRange: '2021:2022'
     });
 
 
-$('.datepicker').datepicker();
+$('.datepicker').datepicker({
+        onSelect: function (dateText) {
+            $('.custom_calendar a').removeAttr('href');
+
+            var found = $.inArray(dateText, av_dates.items.item) != -1;
+
+            if (found) {
+                window.location.href = "events?date=" + dateText;
+            }
+
+        },
+        beforeShowDay: function (date) {
+            var string = jQuery.datepicker.formatDate('dd.mm.yy', date);
+            var found = $.inArray(string, ['29.06.2022', '29.06.2021', '29.05.2022']) != -1;
+            return [found, found ? 'active' : 'disabled', found ? '' : 'Не найдено мероприятий на выбранную дату'];
+        }
+    }
+);
+
+
 
 $(window).on("load", function () {
     $(".mCustomScrollbar-wrap").mCustomScrollbar({
         // theme: "light-thick",
         alwaysShowScrollbar: 2,
-        scrollButtons: {enable: true}
+        scrollButtons: { enable: true }
     });
 });
 
