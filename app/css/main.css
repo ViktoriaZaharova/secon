@@ -5,14 +5,15 @@
 
 .home-wrapper {
   position: relative;
-  padding: 80px 0 86px;
   z-index: 1; }
 
 .home-slider-item {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  position: relative;
+  padding: 160px 0 86px; }
 
 .home-slider-item__img {
   position: absolute;
@@ -165,7 +166,11 @@
   margin: 0 0 27px;
   color: #AEAEAE;
   font-size: 40px;
-  font-weight: 500; }
+  font-weight: 500;
+  position: absolute;
+  top: 80px;
+  left: 15px;
+  z-index: 1; }
 
 /*==========  section home end  ==========*/
 /*==========  section video-section ==========*/

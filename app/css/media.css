@@ -667,6 +667,11 @@
       padding: 16px 30px; }
   .logo {
     max-width: 160px; }
+  .home-slider-item {
+    padding: 70px 0 50px; }
+  .counter-slide {
+    top: 20px;
+    margin: 0; }
   .home-slider-item__img {
     max-width: 500px;
     height: 100%; }
@@ -675,8 +680,6 @@
       width: 100%;
       -o-object-fit: cover;
       object-fit: cover; }
-  .home-wrapper {
-    padding: 40px 0; }
   .video-section {
     padding: 120px 0 100px; }
     .video-section h2 {
