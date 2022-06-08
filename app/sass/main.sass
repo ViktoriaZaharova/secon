@@ -1,13 +1,13 @@
 @import "vars"
 
 /*==========  section home ==========*/
+
 .home
   position: relative
   background: #F0F0F0
 
 .home-wrapper
   position: relative
-  //padding: 80px 0 86px
   z-index: 1
 
 .home-slider-item
@@ -67,6 +67,7 @@
 
 .home-slider
   position: relative
+
   .btn
     height: 80px
     font-size: 25px
@@ -536,10 +537,16 @@
   justify-content: flex-end
   margin: 0 0 30px
 
-.partners-slider .slick-list
-  border-left: 1px solid #000
-  border-right: 1px solid #000
-  margin: 0 -0.5px
+.partners-slider
+  .slide
+    margin: 0 -0.5px
+
+  .slick-list
+    border-left: 0.5px solid #000
+    border-right: 0.5px solid #000
+    margin: 0 -.5px
+  .slick-track
+    margin: 0
 
 .partners-slider-item
   height: 115px
@@ -560,7 +567,7 @@
   -webkit-box-sizing: border-box
   box-sizing: border-box
   border: 1px solid #000
-  border-left: none
+  //border-left: none
   margin-bottom: -1px
 
   img
@@ -664,7 +671,6 @@
   margin: 323px 0 0
 
 .business-section
-  background: url("/wp-content/themes/custom/img/bg-business.jpg") no-repeat center
   background-size: cover
   padding: 0 0 206px
 
