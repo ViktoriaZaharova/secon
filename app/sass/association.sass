@@ -1,23 +1,23 @@
 @import "vars"
 
 /*==========  association section  ==========*/
+
 .association-section
-  background: url("../img/association-bg.jpg") no-repeat center
-    size: cover
+  background-size: cover !important
 
 .about
   position: relative
   overflow: hidden
+
   &:before
     content: ''
     position: absolute
     top: -93px
     right: 40%
-    background: url("../img/logo-figure.svg") no-repeat center
-      size: 100%
+    background: url("/wp-content/themes/custom/img/logo-figure.svg") no-repeat center
+    background-size: 100%
     width: 538px
     height: 477px
-
 
 .about-video
   position: relative
@@ -27,13 +27,20 @@
   position: absolute
   left: 50%
   top: 50%
-  transform: translate(-50%,-50%)
+  -webkit-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
   width: 133px
   height: 133px
   border: 3px solid #FFFFFF
-    radius: 50%
+  border-radius: 50%
+  display: -webkit-box
+  display: -ms-flexbox
   display: flex
+  -webkit-box-align: center
+  -ms-flex-align: center
   align-items: center
+  -webkit-box-pack: center
+  -ms-flex-pack: center
   justify-content: center
 
 .about-content
@@ -42,6 +49,7 @@
     margin: 0 0 73px
     padding: 0 0 73px
     border-bottom: 1px solid #000
+
   .box-text
     font-size: 23px
     line-height: 35px
@@ -52,62 +60,76 @@
 .dates-company__box
   width: 100%
   margin: 0 0 20px
-  &-head
-    font-size: 58px
-    font-weight: 600
-    position: relative
-    padding: 0 0 36px
-    margin: 0 0 30px
-    &:before
-      content: ''
-      position: absolute
-      bottom: 0
-      right: 30px
-      background: #000
-      height: 1px
-      width: 100%
+
+.dates-company__box-head
+  font-size: 58px
+  font-weight: 600
+  position: relative
+  padding: 0 0 36px
+  margin: 0 0 30px
+
+  &:before
+    content: ''
+    position: absolute
+    bottom: 0
+    right: 30px
+    background: #000
+    height: 1px
+    width: 100%
 
 .dates-company__box-right
   padding-left: 120px
-  .dates-company__box-head
-    &:before
-      right: auto
-      left: -50px
-      width: calc(100% + 100px)
+
+  .dates-company__box-head:before
+    right: auto
+    left: -50px
+    width: calc(100% + 100px)
 
 .section-info-company
   .image
     min-width: 1034px
     margin-left: 50px
     height: 100%
+    display: -webkit-box
+    display: -ms-flexbox
     display: flex
+    -webkit-box-align: center
+    -ms-flex-align: center
     align-items: center
+    -webkit-box-pack: center
+    -ms-flex-pack: center
     justify-content: center
+
     img
       width: 100%
       height: 100%
+      -o-object-fit: cover
       object-fit: cover
+
   .box-text
     margin: 120px 0
     font-size: 23px
     line-height: 35px
 
 /*==========  association section end  ==========*/
-
-
 /*==========  goal section  ==========*/
+
 .goal
   position: relative
   z-index: 1
   overflow: hidden
   padding: 117px 0 100px
+
   h2
+    width: -webkit-fit-content
+    width: -moz-fit-content
     width: fit-content
+
   &:before
     content: ''
     position: absolute
     background: url("../img/logo-figure.svg") no-repeat center
-      size: 100%
+    background-size: 100%
     bottom: 17px
     left: -163px
     width: 1271px
@@ -117,8 +139,14 @@
 
 .goal-arrow
   fill: none
+  display: -webkit-box
+  display: -ms-flexbox
   display: flex
+  -webkit-box-align: center
+  -ms-flex-align: center
   align-items: center
+  -webkit-box-pack: center
+  -ms-flex-pack: center
   justify-content: center
   stroke: #fff
   width: 46px
@@ -129,6 +157,7 @@
   padding: 112px 0 0
   margin: 132px 0 0
   position: relative
+
   &:before
     content: ''
     position: absolute
@@ -136,16 +165,25 @@
     background: #fff
     width: calc(100% + 60px)
     left: 50%
-    transform: translate(-50%,0)
+    -webkit-transform: translate(-50%, 0)
+    transform: translate(-50%, 0)
     top: 0
+
   h2
     margin: 0 0 80px
 
 .governing-wrapper
   width: 100%
+  display: -webkit-box
+  display: -ms-flexbox
   display: flex
+  -webkit-box-align: stretch
+  -ms-flex-align: stretch
   align-items: stretch
+  -ms-flex-wrap: wrap
   flex-wrap: wrap
+  -webkit-box-pack: justify
+  -ms-flex-pack: justify
   justify-content: space-between
 
 .governing-box
@@ -153,57 +191,72 @@
   width: calc(20% - 8px)
   margin: 0 0 30px
   color: #000
-  &__photo
+
+.governing-box__photo
+  width: 100%
+  height: 228px
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: start
+  -ms-flex-align: start
+  align-items: flex-start
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+
+  img
     width: 100%
-    height: 228px
-    display: flex
-    align-items: flex-start
-    justify-content: center
-    img
-      width: 100%
-      height: 100%
-      object-fit: cover
-  &__name
-    font-size: 29px
-    font-weight: 600
-    position: relative
-    padding: 0 0 26px
-    margin: 0 0 18px
-    &:before
-      content: ''
-      position: absolute
-      height: 1px
-      background: #000
-      width: calc(100% + 10px)
-      left: 50%
-      transform: translate(-50%,0)
-      bottom: 0
+    height: 100%
+    -o-object-fit: cover
+    object-fit: cover
 
-  &__body
-    padding: 25px 38px
-  .box-text
-    font-size: 18px
-    font-weight: 500
-    color: #9B9B9B
-    line-height: 20px
-    max-width: 180px
+.governing-box__name
+  font-size: 29px
+  font-weight: 600
+  position: relative
+  padding: 0 0 26px
+  margin: 0 0 18px
 
+  &:before
+    content: ''
+    position: absolute
+    height: 1px
+    background: #000
+    width: calc(100% + 10px)
+    left: 50%
+    -webkit-transform: translate(-50%, 0)
+    transform: translate(-50%, 0)
+    bottom: 0
+
+.governing-box__body
+  padding: 25px 38px
+
+.governing-box .box-text
+  font-size: 18px
+  font-weight: 500
+  color: #9B9B9B
+  line-height: 20px
+  max-width: 180px
 
 /*==========  goal section end  ==========*/
-
-
 /*==========  events section  ==========*/
+
 .events
   padding: 110px 0 100px
-  h2, .links
+
+  h2
     margin: 0 0 88px
+
   .links
-    color: rgba(#fff, .5)
+    margin: 0 0 88px
+    color: rgba(255, 255, 255, 0.5)
     font-size: 30px
     font-weight: 600
     margin-left: auto
+
   .links-arrow
-    stroke: rgba(#fff, .5)
+    stroke: rgba(255, 255, 255, 0.5)
     width: 28px
     height: 23px
 
@@ -211,47 +264,64 @@
   width: 100%
   height: 100%
   background: #fff
-  &__img
-    width: 100%
-    height: 297px
-    display: flex
-    align-items: center
-    justify-content: center
-    position: relative
-    &:before
-      content: ''
-      position: absolute
-      left: 0
-      top: 0
-      width: 100%
-      height: 100%
-      transition: .3s ease
-    img
-      height: 100%
-      object-fit: cover
-      width: 100%
 
-  &:hover
-    .events-box__img
-      &:before
-        backdrop-filter: blur(10px)
-        background: rgba(0, 0, 0, 0.1)
-  &__body
-    padding: 44px 33px 53px
-    .box-text
-      color: #9B9B9B
-      font-size: 14px
-      line-height: 20px
-      padding: 0 10px
-  &__head
-    position: relative
-    padding: 0 10px 30px
-    border-bottom: 1px solid #000
-    margin: 0 0 23px
+.events-box__img
+  width: 100%
+  height: 297px
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  position: relative
+
+  &:before
+    content: ''
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+
+  /* -webkit-transition: .3s ease
+  /* transition: .3s ease
+
+  img
+    height: 100%
+    -o-object-fit: cover
+    object-fit: cover
+    width: 100%
+
+.events-box:hover .events-box__img:before
+  -webkit-backdrop-filter: blur(10px)
+  backdrop-filter: blur(10px)
+  background: rgba(0, 0, 0, 0.1)
+
+.events-box__body
+  padding: 44px 33px 53px
+
+  .box-text
+    color: #9B9B9B
+    font-size: 14px
+    line-height: 20px
+    padding: 0 10px
+
+.events-box__head
+  position: relative
+  padding: 0 10px 30px
+  border-bottom: 1px solid #000
+  margin: 0 0 23px
+
+.events-box
   .date
     color: #AEAEAE
     font-size: 18px
     font-weight: 600
+
   .links-web
     position: absolute
     right: 10px
@@ -260,36 +330,42 @@
     height: 11px
     fill: none
     stroke: #000
-  &__name
-    font-size: 20px
-    font-weight: 600
-    color: #000
-    margin: 31px 0 0
 
-    &:hover
-      color: $accent
+.events-box__name
+  font-size: 20px
+  font-weight: 600
+  color: #000
+  margin: 31px 0 0
 
+  &:hover
+    color: #324C88
 
 /*==========  events section end  ==========*/
-
-
 /*==========  documents section  ==========*/
+
 .documents
   padding: 87px 0 80px
+
   h2
     margin: 0 0 64px
 
 .documents-box
   width: 100%
   height: 100%
+  display: -webkit-box
+  display: -ms-flexbox
   display: flex
+  -webkit-box-align: center
+  -ms-flex-align: center
   align-items: center
   border: 1px solid #000
+  -webkit-transition: .3s ease
   transition: .3s ease
   fill: none
   stroke: #000
   padding: 42px 58px
   position: relative
+
   .links-web
     position: absolute
     top: 31px
@@ -297,31 +373,40 @@
     stroke: #000
     width: 23px
     height: 23px
+
   &:hover
-    border-color: $accent
-    background: $accent
+    border-color: #324C88
+    background: #324C88
     stroke: #fff
+
     .links-web
       stroke: #fff
+
     .documents-box__name
       color: #fff
-  &__icon
-    display: flex
-    align-items: center
-    justify-content: center
-    width: 69px
-    height: 85px
-    margin: 0 59px 0 0
-  &__name
-    font-size: 29px
-    font-weight: 600
-    color: #000
+
+.documents-box__icon
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  width: 69px
+  height: 85px
+  margin: 0 59px 0 0
+
+.documents-box__name
+  font-size: 29px
+  font-weight: 600
+  color: #000
 
 /*==========  documents section end  ==========*/
-
-
-
 /*==========  association-page section  ==========*/
+
 .association-section-home__img
   width: 620px
   height: 513px
@@ -329,18 +414,31 @@
   position: absolute
   bottom: 0
   left: 50px
+  display: -webkit-box
+  display: -ms-flexbox
   display: flex
+  -webkit-box-align: end
+  -ms-flex-align: end
   align-items: flex-end
+  -webkit-box-pack: end
+  -ms-flex-pack: end
   justify-content: flex-end
+
   img
     width: 100%
     height: 100%
+    -o-object-fit: cover
     object-fit: cover
 
 .association-section-home__wrapper
+  display: -webkit-box
+  display: -ms-flexbox
   display: flex
+  -webkit-box-align: center
+  -ms-flex-align: center
   align-items: center
   width: 100%
+
   .box-text
     padding: 30px 0 30px 70px
     border-left: 1px solid #000
@@ -350,10 +448,17 @@
 .logo-company
   margin: 0 54px 76px 0
   min-width: 188px
+  display: -webkit-box
+  display: -ms-flexbox
   display: flex
+  -webkit-box-align: center
+  -ms-flex-align: center
   align-items: center
+  -webkit-box-pack: center
+  -ms-flex-pack: center
   justify-content: center
   max-width: 188px
+
   img
     width: 100%
 
@@ -361,103 +466,160 @@
   padding: 0
   position: relative
   overflow: hidden
+  .association-section-home__wrapper
+    .box-text
+      max-width: none
 
 .information-association
   padding: 129px 0
 
 .information-association-wrapper
   width: 100%
+  display: -webkit-box
+  display: -ms-flexbox
   display: flex
+  -webkit-box-align: stretch
+  -ms-flex-align: stretch
   align-items: stretch
+  -ms-flex-wrap: wrap
   flex-wrap: wrap
-
 
 .information-association-box
   width: 50%
   position: relative
   margin: 0 -0.5px
   padding: 42px 25px 46px 45px
+
   h3
     font-size: 29px
     font-weight: 500
-  &__head
-    width: 100%
-    display: flex
-    align-items: center
-    justify-content: space-between
-    flex-wrap: wrap
-    margin: 0 0 24px
+
+.information-association-box__head
+  width: 100%
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  -webkit-box-pack: justify
+  -ms-flex-pack: justify
+  justify-content: space-between
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+  margin: 0 0 24px
+
+.information-association-box
   &:before, &:after
     content: ''
     position: absolute
     background: #000
     height: calc(100% - 32px)
     width: 1px
-    transform: translate(0,-50%)
+    -webkit-transform: translate(0, -50%)
+    transform: translate(0, -50%)
     top: 50%
+
   &:before
     left: 0
+
   &:after
     right: 0
-  &__body
-    width: 100%
-    background: #F0F0F0
-    max-width: 711px
-    padding: 27px 40px
-    display: flex
-    align-items: center
-    flex-wrap: wrap
-  .text-left-box, .text-right-box
+
+.information-association-box__body
+  width: 100%
+  background: #F0F0F0
+  max-width: 711px
+  padding: 27px 40px
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+
+.information-association-box
+  .text-left-box
     width: 50%
+
   .text-right-box
+    width: 50%
     border-left: 1px solid #000
     padding: 20px 0 20px 40px
+
     .box-text
       padding: 0 10px
-  ul
-    li
-      margin: 0 0 23px
-      &:last-child
-        margin: 0
+
+  ul li
+    margin: 0 0 23px
+
+    &:last-child
+      margin: 0
 
 .links-vacancies
   color: #000
+
   &:hover
-    color: $accent
+    color: #324C88
 
 .links-company
+  display: -webkit-box
+  display: -ms-flexbox
   display: flex
+  -webkit-box-align: end
+  -ms-flex-align: end
   align-items: flex-end
   color: #000
   font-size: 13px
+
   &:hover
-    color: $accent
-  &__icon
-    fill: none
-    stroke: #000
-    width: 19px
-    height: 19px
-    display: flex
-    align-items: center
-    justify-content: center
-    margin: 0 0 0 17px
+    color: #324C88
+
+.links-company__icon
+  fill: none
+  stroke: #000
+  width: 19px
+  height: 19px
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  -webkit-box-pack: center
+  -ms-flex-pack: center
+  justify-content: center
+  margin: 0 0 0 17px
 
 .information-association-box__it
+  display: -webkit-box
+  display: -ms-flexbox
   display: flex
+  -webkit-box-align: center
+  -ms-flex-align: center
   align-items: center
   font-size: 16px
   font-weight: 500
   color: #000
   fill: none
   stroke: #000
+
   &:hover
-    color: $accent
+    color: #324C88
 
 .information-association-box__it-icon
   width: 23px
   height: 28px
+  display: -webkit-box
+  display: -ms-flexbox
   display: flex
+  -webkit-box-align: center
+  -ms-flex-align: center
   align-items: center
+  -webkit-box-pack: center
+  -ms-flex-pack: center
   justify-content: center
   margin: 0 19px 0 0
 
@@ -466,6 +628,7 @@
   padding: 0 10px 7px
   font-size: 13px
   margin: 0 0 10px
+
   h4
     font-size: 20px
     font-weight: 700
@@ -473,32 +636,42 @@
 
 .contacts-links
   font-size: 18px
-  color: $accent
+  color: #324C88
+
   &:hover
     color: #000
+
 /*==========  association-page section end  ==========*/
-
-
-
 /*==========  association-info section  ==========*/
+
 .association-info__img
+  display: -webkit-box
+  display: -ms-flexbox
   display: flex
+  -webkit-box-align: center
+  -ms-flex-align: center
   align-items: center
+  -webkit-box-pack: center
+  -ms-flex-pack: center
   justify-content: center
   height: 100%
   min-width: 1130px
   float: right
   margin-right: 90px
+
   img
     width: 100%
     height: 100%
+    -o-object-fit: cover
     object-fit: cover
 
 .association-info__content
   position: relative
   padding: 141px 0 130px
+
   .box-text
     font-weight: normal
+
   .links-web
     margin: 0 -60px 26px auto
     width: 40px
@@ -509,6 +682,5 @@
   margin: 0 0 -140px
   position: relative
   z-index: 1
-
 
 /*==========  association-info section end  ==========*/
