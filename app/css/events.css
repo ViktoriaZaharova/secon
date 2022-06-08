@@ -1,7 +1,7 @@
 /*==========  events-home section  ==========*/
 .events-home-section {
   background: url("../img/events.jpeg") no-repeat center;
-    background-size: cover; }
+  background-size: cover !important; }
 
 /*==========  events-home section end  ==========*/
 /*==========  calendar section  ==========*/
@@ -32,7 +32,7 @@
       position: absolute;
       left: 50%;
       -webkit-transform: translate(-50%, 0) rotate(45deg);
-              transform: translate(-50%, 0) rotate(45deg);
+      transform: translate(-50%, 0) rotate(45deg);
       width: 38px;
       height: 38px;
       background: #fff;
@@ -47,14 +47,14 @@
 .nav-tabs {
   width: 100%;
   border: none;
-    border-radius: 0; }
+  border-radius: 0; }
   .nav-tabs .nav-link.active, .nav-tabs .show > .nav-link {
     background: #fff;
     color: #324C88;
     border-color: #fff; }
   .nav-tabs .nav-link {
     border: none;
-      border-radius: 0;
+    border-radius: 0;
     color: #AEAEAE;
     font-size: 29px;
     font-weight: 700;
@@ -65,18 +65,18 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin: 0; }
   .nav-tabs .nav-item {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     border: 2px solid #FFFFFF;
-      border-radius: 0;
+    border-radius: 0;
     margin: 0 -1px 0 0; }
 
 .tab-content {
@@ -98,7 +98,7 @@
     left: -94px;
     bottom: -124px;
     background: url("../img/logo-figure.svg") no-repeat center;
-      background-size: contain;
+    background-size: contain;
     opacity: .2;
     z-index: -1; }
   .callback-section-v2 .callback-wrapper {
@@ -116,8 +116,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 0 0 28px; }
   .datepicker-nav .links {
     margin: 0 0 0 auto;
@@ -129,15 +129,21 @@
     height: 18px;
     margin-left: 10px; }
 
-.datepicker-years, .datepicker-months {
+.datepicker-years {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end; }
+  -ms-flex-align: end;
+  align-items: flex-end; }
 
 .datepicker-months {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   margin: 0 auto; }
 
 .datepicker-years-item, .datepicker-months-item {
@@ -146,13 +152,15 @@
   font-weight: bold;
   min-width: 123px;
   text-align: center; }
-  .datepicker-years-item:hover, .datepicker-months-item:hover {
-    color: #000; }
-  .datepicker-years-item.active, .datepicker-months-item.active {
-    color: #324C88;
-    font-size: 35px;
-    font-weight: bold;
-    margin: 0 -10px -5px; }
+
+.datepicker-years-item:hover, .datepicker-months-item:hover {
+  color: #000; }
+
+.datepicker-years-item.active, .datepicker-months-item.active {
+  color: #324C88;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0 -10px -5px; }
 
 .datepicker-years-item.active {
   text-align: left;
@@ -169,12 +177,12 @@
     padding: 0; }
   .datepicker .ui-widget.ui-widget-content {
     border: none;
-      border-radius: 0; }
+    border-radius: 0; }
   .datepicker .ui-datepicker {
     width: 100%; }
   .datepicker .ui-datepicker-header {
     border: none;
-      border-radius: 0;
+    border-radius: 0;
     background: transparent;
     font-family: "RisingSun", sans-serif;
     padding: 0;
@@ -182,10 +190,10 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     margin: 0 0 10px; }
 
 .ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
@@ -199,29 +207,29 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   top: 0;
   right: 0;
   left: 0;
   opacity: 1;
   border: none;
-    border-radius: 0;
+  border-radius: 0;
   cursor: pointer;
   background: url("../img/arrow-right.svg") no-repeat center;
-    background-size: 100%; }
+  background-size: 100%; }
 
 .ui-datepicker .ui-datepicker-prev {
   -webkit-transform: rotate(180deg);
-          transform: rotate(180deg); }
+  transform: rotate(180deg); }
 
 .ui-datepicker .ui-datepicker-next {
   -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1; }
+  -ms-flex-order: 1;
+  order: 1; }
 
 .ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
   width: auto;
@@ -234,11 +242,12 @@
   color: #324C88;
   font-family: "RisingSun", sans-serif;
   background: url("../img/arrow-bottom-blue.svg") no-repeat right center;
-    background-size: 15px;
+  background-size: 15px;
   cursor: pointer;
   text-align: center; }
-  .ui-datepicker select.ui-datepicker-month option, .ui-datepicker select.ui-datepicker-year option {
-    font-size: 20px; }
+
+.ui-datepicker select.ui-datepicker-month option, .ui-datepicker select.ui-datepicker-year option {
+  font-size: 20px; }
 
 .ui-datepicker select.ui-datepicker-month {
   margin: 0 30px 0 0; }
@@ -272,18 +281,36 @@
     border: 0.5px solid #7D7D7D;
     vertical-align: middle; }
 
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button {
   width: 100%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-weight: bold;
+  border: none;
+  background: #fff;
+  color: #000;
+  text-align: center; }
+
+html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-weight: bold;
   border: none;
   background: #fff;
