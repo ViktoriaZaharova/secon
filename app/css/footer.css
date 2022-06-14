@@ -4,9 +4,15 @@ footer .list-social {
   footer .list-social li a {
     border-color: #fff;
     fill: #ffffff; }
+    footer .list-social li a img {
+      -webkit-filter: brightness(0) invert(1);
+              filter: brightness(0) invert(1); }
     footer .list-social li a:hover {
       fill: #324C88;
       background: #F0F0F0; }
+      footer .list-social li a:hover img {
+        -webkit-filter: none;
+                filter: none; }
 
 .footer-bottom {
   background: #324C88;

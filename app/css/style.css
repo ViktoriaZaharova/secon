@@ -361,6 +361,9 @@ h2 {
       .list-social li a:hover {
         background: #324C88;
         fill: #fff; }
+        .list-social li a:hover img {
+          -webkit-filter: brightness(0) invert(1);
+                  filter: brightness(0) invert(1); }
 
 .slick-slider {
   width: 100%; }
