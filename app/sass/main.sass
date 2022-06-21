@@ -9,6 +9,8 @@
 .home-wrapper
   position: relative
   z-index: 1
+  >.container
+      max-width: none
 
 .home-slider-item
   width: 100%
@@ -17,6 +19,8 @@
   display: flex
   position: relative
   padding: 160px 0 86px
+  .container
+    max-width: none
 
 .home-slider-item__img
   position: absolute
@@ -50,10 +54,10 @@
     background: linear-gradient(90deg, #F0F0F0 8.33%, rgba(240, 240, 240, 0.829545) 38.02%, rgba(240, 240, 240, 0) 100%)
 
 .home-slider-title
-  font-size: 70px
+  font-size: 50px
   font-weight: 600
   color: #000000
-  line-height: 79px
+  line-height: 59px
 
 .home-slider-item__content
   max-width: 560px
@@ -61,9 +65,9 @@
 
   .box-text
     margin: 23px 0 52px
-    font-size: 29px
+    font-size: 24px
     font-weight: 500
-    line-height: 43px
+    line-height: 33px
 
 .home-slider
   position: relative
@@ -75,9 +79,10 @@
 
 .home-slider-dots
   height: 100%
-  background: #324C88
+  //background: #324C88
   width: 157px
   position: absolute
+  //right: -140px
   right: 0
   top: 0
   z-index: 1
@@ -140,8 +145,9 @@
 .home-slider-navigation
   border-top: 10px solid #324C88
   margin-bottom: -1px
-  width: calc(100% - 157px)
-
+  width: 100%
+  z-index: 2
+  position: relative
   .slick-track
     display: -webkit-box
     display: -ms-flexbox
@@ -436,7 +442,8 @@
 
 .cases-slider-item__img
   position: absolute
-  right: 49px
+  right: 0
+  padding: 0 20px 0 10px
   top: 48px
   max-width: 175px
   display: -webkit-box
@@ -466,7 +473,7 @@
 
 .cases-slider-item__body
   margin: 50px 0 0
-  max-width: 272px
+  max-width: 245px
   width: 100%
 
 .cases-slider-item__title
@@ -523,7 +530,7 @@
   max-width: 257px
   top: auto
   bottom: 38px
-  right: -20px
+  right: 0
 
 /*==========  section cases end  ==========*/
 /*==========  section partners ==========*/
@@ -545,6 +552,7 @@
     border-left: 0.5px solid #000
     border-right: 0.5px solid #000
     margin: 0 -.5px
+
   .slick-track
     margin: 0
 
@@ -567,7 +575,6 @@
   -webkit-box-sizing: border-box
   box-sizing: border-box
   border: 1px solid #000
-  //border-left: none
   margin-bottom: -1px
 
   img
@@ -671,7 +678,7 @@
   margin: 323px 0 0
 
 .business-section
-  background-size: cover
+  background-size: cover !important
   padding: 0 0 206px
 
 .performers
@@ -745,5 +752,7 @@
 .performers-item-call
   &:after, &:before
     display: none
+
+/*==========  page section end  ==========*/
 
 /*==========  page section end  ==========*/
