@@ -39,9 +39,12 @@ header {
   font-size: 18px;
   margin: 0 auto; }
   .menu li {
-    margin: 0 20px 0 0; }
+    margin: 0 20px 0 0;
+    position: relative; }
     .menu li:last-child {
       margin: 0; }
+    .menu li:hover .dropdown-menu {
+      display: block; }
     .menu li a {
       position: relative;
       color: #000000;
@@ -58,6 +61,10 @@ header {
         background: #324C88; }
       .menu li a:hover:before {
         width: 52px; }
+  .menu .dropdown-menu {
+    margin: 0; }
+    .menu .dropdown-menu .dropdown-item {
+      padding: 7px 10px; }
 
 .btn-burger {
   width: 23px;
